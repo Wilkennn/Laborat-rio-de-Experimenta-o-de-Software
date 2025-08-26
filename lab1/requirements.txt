@@ -4,3 +4,4 @@ seaborn
 requests
 python-dotenv
 numpy
+pytest
