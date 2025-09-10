@@ -1,0 +1,2 @@
+name,url,language,description,created_at,updated_at,stars,forks,watchers,contributors,releases,age_years,loc_total,loc_comments_total,classes_count,methods_count,cbo_avg,cbo_max,dit_avg,dit_max,lcom_avg,lcom_max,wmc_avg,noc_avg,cc_avg,clone_url
+Snailclimb/JavaGuide,https://github.com/Snailclimb/JavaGuide,Java,「Java学习+面试指南」一份涵盖大部分 Java 程序员所需要掌握的核心知识。准备 Java 面试，首选 JavaGuide！,2018-05-07T13:27:00Z,2025-09-10T14:05:18Z,151680,45987,151680,1,0,7.35,0,0,0,0,0.0,0,0.0,0,0.0,0,0.0,0.0,0.0,https://github.com/Snailclimb/JavaGuide.git
