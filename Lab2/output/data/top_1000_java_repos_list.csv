@@ -1,0 +1,4 @@
+rank,name,stars,forks,language,description,url,clone_url,created_at,updated_at
+1,spring-projects/spring-boot,74800,40200,Java,Spring Boot makes it easy to create stand-alone applications,https://github.com/spring-projects/spring-boot,https://github.com/spring-projects/spring-boot.git,2013-12-05T16:25:46Z,2024-01-15T10:30:00Z
+2,elastic/elasticsearch,69500,24300,Java,"Free and Open, Distributed, RESTful Search Engine",https://github.com/elastic/elasticsearch,https://github.com/elastic/elasticsearch.git,2010-02-08T13:20:56Z,2024-01-15T08:45:00Z
+3,apache/kafka,28200,13800,Java,Mirror of Apache Kafka,https://github.com/apache/kafka,https://github.com/apache/kafka.git,2012-10-19T16:50:30Z,2024-01-15T12:15:00Z
