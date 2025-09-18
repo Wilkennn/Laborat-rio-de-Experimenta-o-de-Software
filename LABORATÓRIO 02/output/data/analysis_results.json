@@ -1,0 +1,11 @@
+{
+  "RQ01": {
+    "question": "Qual a relação entre a popularidade dos repositórios e as suas características de qualidade?",
+    "hypothesis": "Repositórios mais populares (mais estrelas) tendem a ter melhor qualidade de código, com menor acoplamento (CBO), menor profundidade de herança (DIT) e maior coesão (menor LCOM).",
+    "descriptive_stats": {
+      "stars": {
+        "count": 100,
+        "mean": 35879.38,
+        "median": 28070.5,
+        "std": 22466.221,
+        "min": 
