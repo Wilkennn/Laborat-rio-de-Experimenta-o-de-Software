@@ -1,7 +1,6 @@
 # Relatório de Análise: Um Estudo sobre Popularidade e Qualidade de Código nos Principais Repositórios Java
 
 **Data da Análise:** 18 de setembro de 2025
-**Autor:** Gemini AI
 **Fonte de Dados:** Análise de 1.000 repositórios Java proeminentes do GitHub.
 
 ---
