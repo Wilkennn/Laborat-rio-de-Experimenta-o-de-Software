@@ -23,9 +23,20 @@ from src.collectors.repo_selector import RepositorySelector
 from src.collectors.github_collector import GitHubCollector
 from src.modules.metrics_calculator import MetricsCalculator
 
-# Configura logging
+try:
+    Config.validate_config()
+except ValueError as e:
+    # Se a validação falhar (ex: GITHUB_TOKEN faltando), o programa para aqui.
+    print(f"Erro de configuração: {e}")
+    sys.exit(1)
+
+# 2. AGORA CONFIGURE O LOGGING
+# A configuração funcionará porque o diretório para o log já foi criado.
 logging.config.dictConfig(LOGGING_CONFIG)
 logger = logging.getLogger(__name__)
+
+logger.info("Iniciando a Sprint 1 do Laboratório 03.")
+logger.info("Configuração validada e logging iniciado com sucesso.")
 
 def setup_environment():
     """Configura ambiente e valida configurações"""

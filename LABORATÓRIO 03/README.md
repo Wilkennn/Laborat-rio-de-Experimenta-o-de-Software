@@ -91,3 +91,30 @@ python main.py
 - Python 3.8+
 - Token de acesso do GitHub API
 - Bibliotecas especificadas em requirements.txt
+```
+LABORATÓRIO 03
+├─ docs
+│  └─ github_token_setup.md
+├─ main.py
+├─ output
+│  ├─ data
+│  └─ plots
+├─ quick_test.py
+├─ README.md
+├─ requirements.txt
+├─ setup.py
+├─ src
+│  ├─ collectors
+│  │  ├─ github_collector.py
+│  │  ├─ repo_selector.py
+│  │  └─ __init__.py
+│  ├─ config
+│  │  └─ config.py
+│  └─ modules
+│     ├─ metrics_calculator.py
+│     └─ __init__.py
+└─ test
+   ├─ test_basic.py
+   └─ __init__.py
+
+```
