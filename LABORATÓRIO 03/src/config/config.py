@@ -83,14 +83,15 @@ LOGGING_CONFIG = {
             'class': 'logging.StreamHandler',
             'level': 'INFO',
             'formatter': 'simple',
-            'stream': 'ext://sys.stdout'
+            'stream': 'ext://sys.stdout',
         },
         'file': {
             'class': 'logging.FileHandler',
             'level': 'DEBUG',
             'formatter': 'detailed',
             'filename': str(Config.OUTPUT_DIR / 'lab03.log'),
-            'mode': 'a'
+            'mode': 'a',
+            'encoding': 'utf-8'
         }
     },
     'loggers': {
