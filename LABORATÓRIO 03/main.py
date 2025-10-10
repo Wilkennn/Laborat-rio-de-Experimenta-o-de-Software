@@ -26,15 +26,42 @@ def setup_environment():
         sys.exit(1)
 
 def main():
-    parser = argparse.ArgumentParser(description='Lab03 - Pipeline de Coleta e Análise de Code Review no GitHub')
-    parser.add_argument('--repos', type=int, default=Config.TOP_REPOS_COUNT, help='Número de repositórios a buscar.')
-    parser.add_argument('--min-prs', type=int, default=Config.MIN_PRS_PER_REPO, help='Mínimo de PRs por repositório.')
-    parser.add_argument('--max-repos', type=int, help='Limita a coleta a N repositórios (para testes).')
-    parser.add_argument('--skip-selection', action='store_true', help='Pular a etapa de seleção de repositórios.')
-    parser.add_argument('--skip-collection', action='store_true', help='Pular a etapa de coleta de PRs.')
-    parser.add_argument('--skip-metrics', action='store_true', help='Pular a etapa de cálculo de métricas.')
+    parser = argparse.ArgumentParser(description='Lab03 - Pipeline Completo de Análise de Code Review no GitHub')
+    
+    # Argumentos para coleta (LAB03S01/S02)
+    parser.add_argument('--repos', type=int, default=Config.TOP_REPOS_COUNT, 
+                       help='Número de repositórios a buscar.')
+    parser.add_argument('--min-prs', type=int, default=Config.MIN_PRS_PER_REPO, 
+                       help='Mínimo de PRs por repositório.')
+    parser.add_argument('--max-repos', type=int, 
+                       help='Limita a coleta a N repositórios (para testes).')
+    
+    # Argumentos para controle de etapas
+    parser.add_argument('--skip-selection', action='store_true', 
+                       help='Pular a etapa de seleção de repositórios.')
+    parser.add_argument('--skip-collection', action='store_true', 
+                       help='Pular a etapa de coleta de PRs.')
+    parser.add_argument('--skip-metrics', action='store_true', 
+                       help='Pular a etapa de cálculo de métricas.')
+    
+    # Argumentos específicos para LAB03S03
+    parser.add_argument('--only-analysis', action='store_true',
+                       help='Executar apenas análise estatística, visualizações e relatório (LAB03S03).')
+    parser.add_argument('--quick-test', action='store_true',
+                       help='Modo teste rápido com dados limitados.')
     
     args = parser.parse_args()
+    
+    # Se modo apenas análise, pula coleta
+    if args.only_analysis:
+        args.skip_selection = True
+        args.skip_collection = True  
+        args.skip_metrics = True
+    
+    # Modo teste rápido
+    if args.quick_test:
+        args.max_repos = 5  # Apenas 5 repos para teste
+        print("🧪 MODO TESTE RÁPIDO ATIVADO - Coletando apenas 5 repositórios")
     
     setup_environment()
     

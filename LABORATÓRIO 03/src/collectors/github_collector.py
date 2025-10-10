@@ -313,6 +313,29 @@ class GitHubCollector:
         logger.info(f"=== Coleta concluída para {repo_full_name}: {len(prs)} PRs ===")
         return prs
     
+    def collect_from_repositories(self, repositories: List[Dict[str, Any]], max_repos: int = None) -> List[Dict[str, Any]]:
+        """
+        Coleta PRs de múltiplos repositórios
+        
+        Args:
+            repositories: Lista de repositórios
+            max_repos: Número máximo de repositórios a processar (para testes)
+        """
+        if max_repos:
+            repositories = repositories[:max_repos]
+        
+        return self.collect_multiple_repositories(repositories)
+    
+    def collect_from_repositories(self, repositories: List[Dict[str, Any]], max_repos: int = None) -> List[Dict[str, Any]]:
+        """
+        Coleta PRs de múltiplos repositórios (método esperado pelo pipeline)
+        """
+        repos_to_process = repositories
+        if max_repos:
+            repos_to_process = repositories[:max_repos]
+        
+        return self.collect_multiple_repositories(repos_to_process)
+    
     def collect_multiple_repositories(self, repositories: List[Dict[str, Any]]) -> List[Dict[str, Any]]:
         """
         Coleta PRs de múltiplos repositórios

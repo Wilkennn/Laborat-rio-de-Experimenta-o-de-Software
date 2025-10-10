@@ -19,14 +19,20 @@ class Config:
     GITHUB_TOKEN: ClassVar[str] = os.getenv('GITHUB_TOKEN', '')
     GITHUB_API_BASE_URL: ClassVar[str] = 'https://api.github.com'
 
-    # Parâmetros de coleta
-    TOP_REPOS_COUNT: ClassVar[int] = 200
-    MIN_PRS_PER_REPO: ClassVar[int] = 100
-    MIN_REVIEW_TIME_HOURS: ClassVar[int] = 1
+    # Parâmetros de coleta conforme metodologia do laboratório
+    TOP_REPOS_COUNT: ClassVar[int] = 200  
+    MIN_PRS_PER_REPO: ClassVar[int] = 100  # Mínimo 100 PRs (MERGED + CLOSED)
+    MIN_REVIEW_TIME_HOURS: ClassVar[int] = 1  # > 1 hora para eliminar bots
+    
+    # Paginação otimizada para coleta robusta
+    REPOS_PER_PAGE: ClassVar[int] = 50  # Páginas maiores para repositórios
+    PRS_PER_PAGE: ClassVar[int] = 50    # Páginas maiores para PRs
+    MAX_PRS_PER_REPO: ClassVar[int] = 200  # Mais PRs para análise robusta
 
-    # Rate limiting
-    REQUESTS_PER_HOUR: ClassVar[int] = 5000  # GitHub API limit for authenticated requests
-    SLEEP_TIME: ClassVar[float] = 3600 / REQUESTS_PER_HOUR  # Seconds between requests
+    # Rate limiting mais conservador
+    REQUESTS_PER_HOUR: ClassVar[int] = 3600  # Reduzido para ser mais conservador
+    SLEEP_TIME: ClassVar[float] = 1.2  # Tempo entre requests (1.2 segundos)
+    BATCH_SIZE: ClassVar[int] = 10  # Processamento em lotes menores
 
     # Caminhos de arquivo (usando pathlib)
     OUTPUT_DIR: ClassVar[Path] = Path('output')
