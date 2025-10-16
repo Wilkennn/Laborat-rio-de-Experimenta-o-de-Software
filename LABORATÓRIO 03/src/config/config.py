@@ -20,8 +20,9 @@ class Config:
     GITHUB_API_BASE_URL: ClassVar[str] = 'https://api.github.com'
 
     # Parâmetros de coleta
-    TOP_REPOS_COUNT: ClassVar[int] = 200
+    TOP_REPOS_COUNT: ClassVar[int] = 10
     MIN_PRS_PER_REPO: ClassVar[int] = 100
+    PRS_PER_REPO_LIMIT: ClassVar[int] = 200 
     MIN_REVIEW_TIME_HOURS: ClassVar[int] = 1
 
     # Rate limiting

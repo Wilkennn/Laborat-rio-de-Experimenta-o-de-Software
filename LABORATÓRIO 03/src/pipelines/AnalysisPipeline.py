@@ -82,9 +82,8 @@ class AnalysisPipeline:
             
         self.logger.info("=== ETAPA 2: COLETA DE PULL REQUESTS ===")
         try:
-            all_prs = self.github_collector.collect_from_repositories(
+            all_prs = self.github_collector.collect_multiple_repositories(
                 repositories, 
-                max_repos=self.args.max_repos
             )
             filepath = self.github_collector.save_prs_data(all_prs, "pull_requests_data.csv")
             self.logger.info(f"✓ {len(all_prs)} PRs coletados e salvos em: {filepath}")
