@@ -1,0 +1,1 @@
+# Collectors module for GitHub data collection

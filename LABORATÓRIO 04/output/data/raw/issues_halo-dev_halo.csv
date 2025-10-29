@@ -1,0 +1,83 @@
+repo_full_name,id,number,title,state,comments,created_at,updated_at,closed_at,user_login,labels
+halo-dev/halo,3565896725,7884,[K8s Multi-Replica] Data inconsistency with multiple pods using shared MySQL and NFS,open,1,2025-10-29T13:07:00Z,2025-10-29T13:23:36Z,,qingcaiis,triage/duplicate
+halo-dev/halo,3559721987,7876,"Expose custom paths for Categories, Tags, and Archives pages to themes",open,0,2025-10-28T04:22:45Z,2025-10-28T04:22:49Z,,ruibaby,area/core
+halo-dev/halo,3555416577,7874,新特性建议：“全站私有化” 路由白名单功能,open,0,2025-10-27T07:23:31Z,2025-10-27T07:23:31Z,,holwell,
+halo-dev/halo,3554767554,7870,【后台管理-链接】在分页的第二页及以上页面拖拽排序时，会导致整体顺序错乱,closed,1,2025-10-27T02:08:23Z,2025-10-27T02:40:15Z,2025-10-27T02:40:15Z,mjsoftking,
+halo-dev/halo,3548119464,7864,复制粘贴时图片内容可能会被识别为外部链接,open,0,2025-10-24T07:53:57Z,2025-10-24T07:54:07Z,,LIlGG,kind/bug
+halo-dev/halo,3547426553,7862,登录状态异常,closed,3,2025-10-24T03:07:22Z,2025-10-24T03:53:08Z,2025-10-24T03:53:08Z,InkSha,
+halo-dev/halo,3543040822,7857,halo的Nexus 知识库主题移动端的文章如何才能出现文章的目录？应当增加,closed,0,2025-10-23T03:59:24Z,2025-10-23T08:05:45Z,2025-10-23T08:05:45Z,rQuester,
+halo-dev/halo,3541530378,7855,ocean知识库，当子分类数据较多（20个+）的时候，首页标签直接溢出了而不是自适应,closed,2,2025-10-22T16:23:54Z,2025-10-23T02:52:12Z,2025-10-23T02:52:11Z,rQuester,
+halo-dev/halo,3541523933,7854,FIT2BLOG主题移动端没有搜索，作为知识库核心功能，这个不太应该,closed,0,2025-10-22T16:21:39Z,2025-10-23T02:52:20Z,2025-10-23T02:52:19Z,rQuester,
+halo-dev/halo,3538858429,7842,halo点击保持会话登录后是多久过期，有没有使用后续命的机制呢,closed,0,2025-10-22T02:20:24Z,2025-10-22T02:30:09Z,2025-10-22T02:30:09Z,rQuester,
+halo-dev/halo,3538836323,7841,列表页面的每页条目数量选择可以保存,open,0,2025-10-22T02:12:59Z,2025-10-23T08:06:25Z,,wan92hen,priority/awaiting-more-evidence
+halo-dev/halo,3532178743,7835,anquanxinjianyi,closed,1,2025-10-20T12:00:14Z,2025-10-20T13:00:36Z,2025-10-20T13:00:30Z,ceet2016,triage/duplicate
+halo-dev/halo,3532178016,7834,安全性建议,closed,1,2025-10-20T12:00:00Z,2025-10-20T13:00:25Z,2025-10-20T13:00:18Z,ceet2016,triage/duplicate
+halo-dev/halo,3532177295,7833,安全性建议,closed,1,2025-10-20T11:59:44Z,2025-10-22T02:53:34Z,2025-10-22T02:53:34Z,ceet2016,
+halo-dev/halo,3529128134,7827,菜单项类型新增空链接菜单,open,1,2025-10-18T19:34:54Z,2025-10-20T06:51:11Z,,QingFeng-awa,priority/awaiting-more-evidence
+halo-dev/halo,3528442117,7824,启动问题,closed,0,2025-10-18T09:30:12Z,2025-10-18T10:48:39Z,2025-10-18T10:48:39Z,simanya0,
+halo-dev/halo,3528239714,7823,表单登录,closed,3,2025-10-18T07:25:36Z,2025-10-18T12:55:12Z,2025-10-18T07:33:44Z,Preference1314,
+halo-dev/halo,3524717074,7813,https://blog.fit2cloud.com/这个是用哪个主题做的,closed,1,2025-10-17T06:30:56Z,2025-10-17T06:33:44Z,2025-10-17T06:33:21Z,rQuester,
+halo-dev/halo,3518644357,7807,halo专业版是否可以接受多人登录同一个账号，缓存是独立的吗,closed,0,2025-10-15T15:54:11Z,2025-10-16T02:22:07Z,2025-10-16T02:22:07Z,rQuester,
+halo-dev/halo,3518487631,7806,halo专业版和社区版的公钥如何获取,closed,0,2025-10-15T15:10:16Z,2025-10-15T15:52:29Z,2025-10-15T15:52:29Z,rQuester,
+halo-dev/halo,3508841526,7802,ITDOG 网站测速执行快速测试Halo崩溃,closed,11,2025-10-13T07:35:41Z,2025-10-16T15:33:04Z,2025-10-16T15:33:04Z,dhbxs,
+halo-dev/halo,3506919628,7801,Thumbnail dimensions may be generated incorrectly,closed,2,2025-10-12T10:13:38Z,2025-10-18T07:20:13Z,2025-10-17T09:11:52Z,ruibaby,"kind/bug,area/core"
+halo-dev/halo,3498457432,7798,支持markdown公式渲染,closed,0,2025-10-09T09:56:02Z,2025-10-09T10:23:06Z,2025-10-09T10:23:05Z,zhangdengjie,
+halo-dev/halo,3497830908,7797,Compress images on the client-side before uploading,open,1,2025-10-09T06:38:07Z,2025-10-11T09:50:52Z,,ruibaby,"kind/feature,area/ui"
+halo-dev/halo,3497528448,7796,Allow modification of built-in extension data,open,1,2025-10-09T03:43:00Z,2025-10-15T02:42:48Z,,ruibaby,area/core
+halo-dev/halo,3497503487,7795,The editor scrolls erratically after changing the language of a code block,closed,0,2025-10-09T03:26:39Z,2025-10-22T07:41:47Z,2025-10-21T04:20:14Z,ruibaby,"kind/bug,area/editor"
+halo-dev/halo,3483417940,7793,chrome最新版打开halo控制台，不显示内容,closed,7,2025-10-04T08:43:06Z,2025-10-09T15:42:52Z,2025-10-09T15:42:51Z,hst-Sunday,triage/needs-information
+halo-dev/halo,3475834092,7787,Add option to hide certain storage policies from the upload modal,closed,0,2025-10-02T03:20:45Z,2025-10-10T16:32:13Z,2025-10-03T17:04:30Z,ruibaby,"area/core,area/ui"
+halo-dev/halo,3451775465,7783,回收站部分文章无法删除和恢复,closed,1,2025-09-25T03:57:13Z,2025-09-25T10:41:17Z,2025-09-25T10:41:17Z,Einstein-schrodinger,
+halo-dev/halo,3443509964,7778,存储策略也太难用了，默认的不允许编辑，新创建的在附件上传时候又会被当作默认的，出错率极高！,closed,1,2025-09-23T03:27:22Z,2025-09-23T03:29:53Z,2025-09-23T03:29:53Z,dengxiwang,
+halo-dev/halo,3443254504,7777,采购作为企业文档，知识库使用，附件不支持全站私有化，能否支持,open,1,2025-09-23T00:57:10Z,2025-09-29T10:36:09Z,,SpriteBBX,kind/feature
+halo-dev/halo,3430585035,7772,counters 模型无法进行修改,closed,3,2025-09-18T14:15:10Z,2025-09-20T03:42:56Z,2025-09-19T05:11:12Z,loveqiaoshen,"kind/bug,area/core"
+halo-dev/halo,3429692295,7771,Thumbnail status might be incorrect for attachments,closed,0,2025-09-18T10:23:54Z,2025-10-10T16:32:13Z,2025-10-02T02:45:17Z,ruibaby,"kind/bug,area/core"
+halo-dev/halo,3429619349,7770,在默认编辑器 /与、都可以快捷选择输入样式提示，建议学习下飞书,closed,1,2025-09-18T10:04:59Z,2025-10-22T07:41:46Z,2025-10-21T09:48:15Z,SpriteBBX,"kind/improvement,area/editor"
+halo-dev/halo,3429533832,7769,文章列表缩略图不显示BUG，未启用80无法重定向,open,5,2025-09-18T09:41:04Z,2025-09-30T04:53:42Z,,SpriteBBX,
+halo-dev/halo,3424967271,7766,希望category中增加字段显示,open,0,2025-09-17T07:05:40Z,2025-09-19T03:06:00Z,,w-flac,priority/awaiting-more-evidence
+halo-dev/halo,3421362284,7764,缩略图一直处于等待生成中,closed,1,2025-09-16T09:36:48Z,2025-10-10T16:32:12Z,2025-10-02T02:45:18Z,puyujian,triage/needs-information
+halo-dev/halo,3421321961,7763,new-entry-on-form not found,open,2,2025-09-16T09:26:08Z,2025-10-22T05:50:54Z,,galaxy2017,
+halo-dev/halo,3420965763,7759,Create a Dedicated Default Storage Policy for User Avatars,open,0,2025-09-16T07:58:43Z,2025-09-29T10:37:27Z,,ruibaby,"kind/feature,area/core"
+halo-dev/halo,3420925831,7758,"Thumbnail generation fails for webp, gif",closed,0,2025-09-16T07:48:25Z,2025-10-10T16:32:11Z,2025-10-02T02:45:19Z,ruibaby,"kind/bug,area/core"
+halo-dev/halo,3420901088,7757,Suggest Disabling Thumbnail Generation for User Avatars in Storage Policy,closed,0,2025-09-16T07:41:16Z,2025-10-10T16:32:11Z,2025-10-02T02:45:17Z,ruibaby,"kind/feature,area/core"
+halo-dev/halo,3420120388,7754,Suggestion to Remove Default Memory Limit in Dockerfile,closed,1,2025-09-16T02:51:31Z,2025-09-16T12:37:25Z,2025-09-16T12:37:25Z,ruibaby,area/core
+halo-dev/halo,3415014227,7751,修改角色信息后，被修改的用户需要重新登陆才能同步更改,open,1,2025-09-14T12:58:41Z,2025-09-29T10:37:02Z,,YFY0109,"area/core,kind/improvement"
+halo-dev/halo,3406101567,7748,文章编辑器里面通过粘贴行为上传的图片，文件名希望可以是随机名字,closed,1,2025-09-11T11:25:39Z,2025-09-16T02:53:30Z,2025-09-16T02:53:30Z,dengxiwang,
+halo-dev/halo,3399044082,7747,扩展通知器后，消息会重复,open,1,2025-09-09T15:57:34Z,2025-09-09T16:03:26Z,,chengzhongxue,
+halo-dev/halo,3386961966,7737,haloServer卡死，无法进入docker的开发者环境,closed,0,2025-09-05T09:54:18Z,2025-09-05T10:07:54Z,2025-09-05T10:07:54Z,dadastory,
+halo-dev/halo,3386488681,7734,设置文章格式无效,closed,0,2025-09-05T06:55:53Z,2025-09-05T07:04:40Z,2025-09-05T07:04:40Z,ZhangDengfengGit,
+halo-dev/halo,3381621916,7732,1panel应用商店部署halo报错,closed,0,2025-09-03T23:36:42Z,2025-09-04T01:24:37Z,2025-09-04T01:24:37Z,mmaaaa1a,
+halo-dev/halo,3378789635,7731,页面无法打开，且循环报错，主题切换后普遍出现该问题，加载很慢，有些甚至无法加载,closed,2,2025-09-03T08:05:07Z,2025-09-05T09:40:10Z,2025-09-05T09:40:10Z,phoenixlucky,
+halo-dev/halo,3367471394,7728,编辑器缩进有问题，显示有问题版本 2.21、2.20,open,1,2025-08-29T16:47:28Z,2025-10-29T09:12:02Z,,simanya0,"kind/improvement,area/editor"
+halo-dev/halo,3366179907,7727,"通过api写入文章,文章还会检测回收站里面的重名文章,没有屏蔽",closed,1,2025-08-29T09:27:45Z,2025-09-05T10:11:03Z,2025-09-05T10:11:03Z,spritelyl,
+halo-dev/halo,3358977093,7724,后台以及前台可以分类在左边栏显示吗类似栏目的那种，然后选择某个分类 在这里发的文章都属于这个分类的，目前halo已经有的分类是需要发文章后设置里面添加分类 感觉这个方式怪怪的,open,2,2025-08-27T11:15:53Z,2025-08-28T05:26:48Z,,qinghena,priority/awaiting-more-evidence
+halo-dev/halo,3350833075,7723,MacOS使用文章默认编辑器前有数字或符号情况下输入中文会留下第一个字的英文,open,1,2025-08-25T07:54:02Z,2025-09-05T10:14:33Z,,zhangzhenyu91,"kind/bug,area/editor"
+halo-dev/halo,3350182501,7722,请求console中评论列表支持自定义头像功能,open,0,2025-08-25T02:19:52Z,2025-09-05T10:16:04Z,,Curtion,"kind/feature,area/core,area/ui"
+halo-dev/halo,3349300300,7721,评论通知字段 allowNotification，好像无效,closed,1,2025-08-24T08:31:31Z,2025-08-24T11:52:26Z,2025-08-24T11:52:22Z,chengzhongxue,triage/duplicate
+halo-dev/halo,3348226809,7720,halo 后期会支持兼容 GitHub-flavored Alerts 写法吗,open,1,2025-08-23T13:03:58Z,2025-09-05T10:13:51Z,,nrjycyd,"kind/feature,area/core"
+halo-dev/halo,3347490867,7719,能否添加评论回复数据列表显示字段扩展,open,0,2025-08-23T05:32:55Z,2025-08-28T15:22:23Z,,chengzhongxue,"kind/feature,area/plugin,area/ui"
+halo-dev/halo,3345018354,7718,关于页面死回复作者找到原因了,closed,4,2025-08-22T10:34:57Z,2025-09-05T10:15:03Z,2025-09-05T10:15:02Z,A0CHENG,
+halo-dev/halo,3343786860,7713,史诗级建议！附件上传那里，一个非常影响体验的地方！,closed,3,2025-08-22T01:44:58Z,2025-09-06T02:09:39Z,2025-09-06T02:09:39Z,dengxiwang,"kind/improvement,area/ui"
+halo-dev/halo,3341245284,7712,halo的app瞬间文章显示异常,closed,0,2025-08-21T10:43:36Z,2025-08-22T03:27:14Z,2025-08-22T03:27:14Z,baoxinwen,
+halo-dev/halo,3336632134,7710,创建新文章出现 已删除用户,closed,4,2025-08-20T05:37:16Z,2025-09-10T06:46:54Z,2025-09-10T06:46:53Z,HowieHz,"kind/bug,area/core"
+halo-dev/halo,3333748461,7709,建议瞬间和文章一样设置私有时，自己账号登录可以看见对外隐藏,closed,2,2025-08-19T10:05:50Z,2025-09-05T10:15:34Z,2025-09-05T10:15:33Z,jwyby,
+halo-dev/halo,3333737651,7707,建议瞬间和文章一样设置私有时，自己账号登录可以看见对外隐藏,closed,2,2025-08-19T10:02:25Z,2025-09-05T10:15:43Z,2025-09-05T10:15:42Z,jwyby,
+halo-dev/halo,3333736483,7706,因为 2核2G的服务器，不能流畅运行java后端的docker，希望使用go或者python做后端,closed,0,2025-08-19T10:02:02Z,2025-08-19T10:05:06Z,2025-08-19T10:05:06Z,dqd1505826212,
+halo-dev/halo,3332723065,7701,关于点击进入编辑文章内容空白、页面卡死的问题,closed,6,2025-08-19T03:04:39Z,2025-08-22T10:15:05Z,2025-08-22T10:15:05Z,A0CHENG,triage/needs-information
+halo-dev/halo,3328284578,7699,Hardcoded Keystore Password,open,0,2025-08-17T12:21:21Z,2025-08-17T12:22:10Z,,EhsanFir,
+halo-dev/halo,3328180716,7696,设置里，文章设置，建议增加文章封面设置,closed,1,2025-08-17T09:55:03Z,2025-08-19T04:14:45Z,2025-08-19T04:14:45Z,starssr,
+halo-dev/halo,3327269157,7694,[缺陷报告] PHP WebShell 代码块触发杀毒软件误报,closed,1,2025-08-16T13:12:44Z,2025-08-17T10:58:31Z,2025-08-17T10:58:31Z,Tongce,
+halo-dev/halo,3326924245,7693,附件存储域名更新后，引用的附件无法随着更新链接而加载失败报错,closed,1,2025-08-16T05:56:41Z,2025-08-17T11:13:57Z,2025-08-17T11:13:57Z,starssr,triage/duplicate
+halo-dev/halo,3326912013,7692,图库自动更新,closed,2,2025-08-16T05:39:04Z,2025-08-17T10:54:11Z,2025-08-17T10:54:11Z,starssr,
+halo-dev/halo,3325554410,7690,文章作者bug,closed,4,2025-08-15T15:18:38Z,2025-08-17T10:56:13Z,2025-08-17T10:56:13Z,kjkm550W,
+halo-dev/halo,3312822902,7680,Some comment fields are incomplete in functionality,open,0,2025-08-12T07:01:03Z,2025-08-12T07:01:08Z,,ruibaby,"kind/feature,area/core"
+halo-dev/halo,3308670117,7676,编辑角色时关联权限未正常勾选,closed,0,2025-08-11T06:45:10Z,2025-08-17T15:41:12Z,2025-08-17T15:41:12Z,wan92hen,kind/bug
+halo-dev/halo,3308255803,7675,Add XSS protection for the comment API,closed,0,2025-08-11T02:27:51Z,2025-08-12T04:08:48Z,2025-08-12T04:08:47Z,ruibaby,"kind/feature,area/core"
+halo-dev/halo,3299925858,7671,Add rich text support for comment content,closed,0,2025-08-07T10:28:30Z,2025-08-12T06:26:49Z,2025-08-12T06:26:48Z,ruibaby,"kind/feature,area/ui"
+halo-dev/halo,3295968755,7666,点击文章设置报错,closed,5,2025-08-06T09:27:30Z,2025-08-08T11:22:43Z,2025-08-08T11:22:42Z,tianq347,"kind/bug,area/core,triage/needs-information"
+halo-dev/halo,3295003814,7662,Optimize page description tag content,closed,0,2025-08-06T02:53:34Z,2025-08-08T12:42:42Z,2025-08-08T12:42:42Z,ruibaby,area/core
+halo-dev/halo,3292580956,7661,存储策略限制类型勾选音频，上传 mp3 文件失败,open,2,2025-08-05T10:42:37Z,2025-09-29T10:39:57Z,,wan92hen,"kind/bug,area/core"
+halo-dev/halo,3292441853,7660,2.21.5 版本容器无法正常启动，JVM 报错,open,0,2025-08-05T10:02:12Z,2025-08-05T10:02:12Z,,wan92hen,
+halo-dev/halo,3289175407,7659,halo是否已经过了等保二级呀，gov项目需要,closed,0,2025-08-04T12:10:40Z,2025-08-06T02:56:18Z,2025-08-06T02:56:18Z,rQuester,
+halo-dev/halo,3287749366,7655,[BUG] 访问 consolse 时， actuator/globalinfo 接口超时，无日志,open,2,2025-08-04T01:38:22Z,2025-08-05T07:43:49Z,,ClearPlume,triage/needs-information
+halo-dev/halo,3285969976,7654,app图片预览不支持webp,closed,0,2025-08-02T14:20:14Z,2025-08-04T02:20:13Z,2025-08-04T02:20:13Z,52lemon6,

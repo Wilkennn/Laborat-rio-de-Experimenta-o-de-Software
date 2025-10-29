@@ -1,0 +1,135 @@
+repo_full_name,id,number,title,state,comments,created_at,updated_at,closed_at,user_login,labels
+skylot/jadx,3565627965,2677,[core] stores AppData/Local,open,1,2025-10-29T11:57:17Z,2025-10-29T12:34:00Z,,Bozinsky2023,"bug,Core"
+skylot/jadx,3561576731,2676,[core] Decompiling non-standard dex files will cause memory leaks,open,4,2025-10-28T13:27:19Z,2025-10-28T21:38:51Z,,ohyeah521,"bug,CLI,Core"
+skylot/jadx,3553761712,2672,[gui] It can not open apk files with unicode names,open,1,2025-10-26T10:50:44Z,2025-10-26T11:07:40Z,,mf275,"bug,GUI,can't reproduce,waiting for reply"
+skylot/jadx,3553199092,2671,java.lang.Error: Error: could not match input,closed,1,2025-10-26T02:25:04Z,2025-10-26T07:01:52Z,2025-10-26T07:01:52Z,johnnycash12345,
+skylot/jadx,3537488168,2669,java.lang.Error: Error: could not match input,open,1,2025-10-21T17:20:43Z,2025-10-23T21:47:24Z,,vaagishwar,"bug,GUI,no-sample,waiting for fix confirmation"
+skylot/jadx,3534987071,2668,"[core] NullPointerException because ""changeArg"" is null",closed,3,2025-10-21T05:48:01Z,2025-10-22T07:03:49Z,2025-10-22T07:03:48Z,yooo1999,"bug,Core,no-sample,waiting for reply"
+skylot/jadx,3534685298,2667,Error encountered when installing plugin,closed,1,2025-10-21T03:10:39Z,2025-10-21T07:19:38Z,2025-10-21T07:17:42Z,Marvellous890,
+skylot/jadx,3531349019,2665,[gui] ERROR: JadxRuntimeException in pass: RegionMakerVisitor,open,0,2025-10-20T07:22:10Z,2025-10-20T07:22:10Z,,yooo1999,"bug,GUI"
+skylot/jadx,3525917131,2664,[gui] memory leak?,open,5,2025-10-17T12:14:11Z,2025-10-20T16:05:15Z,,Osanosa,"bug,GUI"
+skylot/jadx,3522403853,2663,[gui] 启用mcp后 使用script mcp的端口就一直显示占用冲突 再添加一个脚本 又多一个冲突,closed,1,2025-10-16T15:29:15Z,2025-10-16T16:11:54Z,2025-10-16T16:11:54Z,zbssnya,"bug,GUI"
+skylot/jadx,3520430424,2662,[gui] 1.5.3 Chinese comments appear garbled,closed,6,2025-10-16T05:57:49Z,2025-10-24T19:10:50Z,2025-10-24T18:49:48Z,19990822,"bug,GUI"
+skylot/jadx,3520263935,2661,"java.lang.NullPointerException: Cannot invoke ""jadx.gui.ui.codearea.AbstractCodeArea.getSelectedText()"" because ""codeArea"" is null",closed,1,2025-10-16T04:20:04Z,2025-10-16T07:05:04Z,2025-10-16T07:05:04Z,s2ongmo,
+skylot/jadx,3518496431,2660,jadx.core.utils.exceptions.JadxRuntimeException: Failed to build hash for inputs,closed,1,2025-10-15T15:12:45Z,2025-10-15T17:50:09Z,2025-10-15T17:50:09Z,slavik1bai-coder,
+skylot/jadx,3518495790,2659,JadxRuntimeException: Failed to build hash for inputs,open,2,2025-10-15T15:12:35Z,2025-10-18T21:08:56Z,,slavik1bai-coder,"bug,GUI,discussion"
+skylot/jadx,3511033319,2657,jadx.core.utils.exceptions.JadxRuntimeException: Failed to build hash for inputs,closed,1,2025-10-13T18:19:38Z,2025-10-14T08:29:31Z,2025-10-14T08:29:31Z,njange,
+skylot/jadx,3507717482,2656,[core] Failed to find 'out' block for switch. Please report as an issue.,open,0,2025-10-12T19:00:23Z,2025-10-18T21:13:57Z,,nitram84,"bug,Core,restructure"
+skylot/jadx,3503603332,2653,java.lang.IndexOutOfBoundsException: len=-1485,open,1,2025-10-10T16:18:10Z,2025-10-13T08:07:36Z,,BOMBYBOOO,
+skylot/jadx,3501604244,2652,[gui] Classes from plugin are not resolvable during kotlin-scripting compilation starting from Jadx 1.5.3,closed,3,2025-10-10T06:47:08Z,2025-10-13T12:38:04Z,2025-10-12T02:53:30Z,chsbuffer,"question,waiting for reply,jadx-plugin"
+skylot/jadx,3493559725,2650,[core] Too many Warning！,open,0,2025-10-08T02:04:25Z,2025-10-08T02:04:25Z,,OKKAWA,"bug,Core"
+skylot/jadx,3486126060,2648,[feature] class、argument、variable highlight settings,open,0,2025-10-06T08:07:39Z,2025-10-06T08:07:39Z,,naiyouweibaomihua,new feature
+skylot/jadx,3461261379,2645,java.lang.NoClassDefFoundError: jadx/gui/plugins/JadxAIMCP$1,closed,2,2025-09-28T07:32:15Z,2025-10-03T19:36:58Z,2025-09-28T10:27:22Z,lishangjian35-cell,
+skylot/jadx,3459537213,2644,[core] How can I get the line number positions of all classes contained in a decompiled class?,open,1,2025-09-27T01:40:56Z,2025-09-27T14:19:24Z,,OKKAWA,"question,waiting for reply,jadx-plugin,jadx-api"
+skylot/jadx,3441807492,2643,"java.lang.NullPointerException: Cannot invoke ""jadx.gui.ui.codearea.AbstractCodeArea.getCurrentPosition()"" because the return value of ""jadx.gui.ui.codearea.AbstractCodeContentPanel.getCodeArea()"" is null",closed,1,2025-09-22T16:36:44Z,2025-09-26T12:36:55Z,2025-09-26T12:36:55Z,gy11114545-cell,
+skylot/jadx,3438923723,2642,java.lang.RuntimeException: Error saving file com.pianokeyboard.learnpiano.playmusic.instrument.apk/assets/enc_apt_1_part_1_new,closed,0,2025-09-22T02:16:06Z,2025-09-22T02:16:16Z,2025-09-22T02:16:16Z,TruongLaoDai,
+skylot/jadx,3437171567,2641,"java.lang.NullPointerException: Cannot invoke ""jadx.gui.ui.codearea.AbstractCodeArea.getSelectedText()"" because ""codeArea"" is null",closed,1,2025-09-20T14:03:44Z,2025-09-20T15:48:13Z,2025-09-20T15:48:13Z,abricoshka,
+skylot/jadx,3436888901,2640,"java.lang.NullPointerException: Cannot invoke ""jadx.gui.ui.codearea.AbstractCodeArea.getCurrentPosition()"" because the return value of ""jadx.gui.ui.codearea.AbstractCodeContentPanel.getCodeArea()"" is null",closed,1,2025-09-20T08:07:55Z,2025-09-20T08:54:32Z,2025-09-20T08:54:32Z,Sabu988o,
+skylot/jadx,3420520900,2639,[gui] Freeze During Code Search,closed,2,2025-09-16T05:45:09Z,2025-09-17T01:09:24Z,2025-09-17T01:09:24Z,gameoflord012,"bug,GUI,waiting for reply"
+skylot/jadx,3414802716,2637,java.lang.ExceptionInInitializerError,closed,0,2025-09-14T09:15:41Z,2025-09-14T09:33:55Z,2025-09-14T09:33:55Z,linzbc,
+skylot/jadx,3406471585,2635,java.nio.file.InvalidPathException: Illegal char <:> at index 14: resources.arsc:/res/values/strings.xml,open,0,2025-09-11T13:02:53Z,2025-09-11T13:25:08Z,,phone-phreak,
+skylot/jadx,3405188906,2634,[feature] Locate all Implementing Methods,open,0,2025-09-11T07:24:12Z,2025-09-11T07:24:12Z,,shapaz,new feature
+skylot/jadx,3404442754,2633,"java.lang.NullPointerException: Cannot invoke ""org.fife.ui.rsyntaxtextarea.TokenImpl.setNextToken(org.fife.ui.rsyntaxtextarea.Token)"" because ""this.currentToken"" is null",closed,1,2025-09-11T01:51:35Z,2025-10-23T21:51:58Z,2025-10-23T21:51:58Z,koofio,
+skylot/jadx,3402473530,2632,[core] Main Activity not found,open,1,2025-09-10T13:20:47Z,2025-09-10T13:26:46Z,,marutichintan,"bug,Core"
+skylot/jadx,3397086062,2630,Error: Unsupported constant type: METHOD_HANDLE,open,2,2025-09-09T07:41:48Z,2025-09-12T10:48:56Z,,vladimirlv17,"bug,Core,java-input,no-sample,waiting for reply"
+skylot/jadx,3394098161,2627,[core] content of try-catch block is not placed inside but after it,open,1,2025-09-08T12:52:50Z,2025-09-08T19:19:13Z,,jpstotz,"bug,Core,try-catch"
+skylot/jadx,3393879633,2626,"java.lang.NullPointerException: Cannot invoke ""jadx.gui.ui.codearea.AbstractCodeArea.getCurrentPosition()"" because the return value of ""jadx.gui.ui.codearea.AbstractCodeContentPanel.getCodeArea()"" is null",closed,2,2025-09-08T11:53:35Z,2025-09-08T18:39:20Z,2025-09-08T12:12:45Z,log2cn,
+skylot/jadx,3393845872,2625,[feature] add agent-cli to jadx,open,4,2025-09-08T11:43:19Z,2025-09-10T01:11:33Z,,sec-staff-lilithgames,"new feature,waiting for reply"
+skylot/jadx,3393003120,2624,"java.lang.NullPointerException: Cannot invoke ""jadx.gui.ui.codearea.AbstractCodeArea.requestFocus()"" because ""codeArea"" is null",closed,1,2025-09-08T07:39:16Z,2025-09-08T08:57:18Z,2025-09-08T08:57:18Z,yooo1999,
+skylot/jadx,3392104039,2623,"java.lang.NullPointerException: Cannot invoke ""jadx.gui.ui.codearea.AbstractCodeArea.getCurrentPosition()"" because the return value of ""jadx.gui.ui.codearea.AbstractCodeContentPanel.getCodeArea()"" is null",closed,1,2025-09-07T23:07:50Z,2025-09-08T08:18:46Z,2025-09-08T08:18:46Z,lUjek-Sh,
+skylot/jadx,3389352174,2622,"java.lang.RuntimeException: error:
+```json
+{
+  ""c"": ""TimerRunnable"",
+  ""run"": ""executeTimerTask""
+}
+```",closed,1,2025-09-06T04:43:25Z,2025-09-06T13:07:01Z,2025-09-06T13:07:01Z,bugparty,
+skylot/jadx,3387674985,2621,"java.lang.NullPointerException: Cannot invoke ""jadx.api.JavaNode.getCodeNodeRef()"" because the return value of ""jadx.gui.treemodel.JNode.getJavaNode()"" is null",closed,1,2025-09-05T14:01:57Z,2025-09-05T15:26:34Z,2025-09-05T15:26:13Z,Sunnykr011,
+skylot/jadx,3378751530,2620,[core] Unsupported multi-entry loop pattern,open,0,2025-09-03T07:52:57Z,2025-09-03T07:56:32Z,,Firepup6500,"bug,Core"
+skylot/jadx,3369479373,2619,[gui] java.lang.OutOfMemoryError: Required array size too large,open,0,2025-08-30T20:26:00Z,2025-08-30T20:26:00Z,,AndroidMaster25,"bug,GUI"
+skylot/jadx,3367549669,2618,"[core] Enum cannot be restored, using external variable (SGET)",open,2,2025-08-29T17:19:37Z,2025-08-30T12:12:42Z,,YarinOmesi,"bug,Core,enum"
+skylot/jadx,3365745289,2617,[core] How to pass the code of the decompiled variable？,closed,0,2025-08-29T07:09:01Z,2025-08-29T19:36:14Z,2025-08-29T19:36:14Z,OKKAWA,"bug,Core"
+skylot/jadx,3353311510,2613,[gui] Jadx consumes whole RAM,open,1,2025-08-25T21:50:34Z,2025-08-26T08:20:58Z,,RobertAzovski,"bug,GUI"
+skylot/jadx,3343979426,2612,How to pass the code of the decompiled variable?,closed,6,2025-08-22T03:19:27Z,2025-09-13T01:28:50Z,2025-09-13T01:28:50Z,OKKAWA,"question,waiting for reply"
+skylot/jadx,3333824574,2611,[feature] How to use a progaurd mapping,closed,3,2025-08-19T10:29:23Z,2025-08-20T23:32:55Z,2025-08-20T23:32:55Z,OKKAWA,"question,jadx-lib,waiting for reply,mappings"
+skylot/jadx,3333800186,2610,[core] 18:20:27.882 [main] WARN jadx.plugins.input.java.data.attributes.AttributesReader -- Unknown java class attribute type: Record,closed,1,2025-08-19T10:21:45Z,2025-08-20T09:01:29Z,2025-08-20T09:00:40Z,OKKAWA,"question,jadx-lib"
+skylot/jadx,3332342101,2609,jadx.core.utils.exceptions.JadxRuntimeException: Failed to build hash for inputs,closed,1,2025-08-18T22:45:09Z,2025-10-18T21:09:54Z,2025-10-18T21:09:54Z,CodeHer777,
+skylot/jadx,3330276032,2608,[feature]  The same code class decompiles differently in two different versions of jadx,open,4,2025-08-18T11:16:10Z,2025-09-26T13:28:32Z,,Ae0n1yu,"bug,Core"
+skylot/jadx,3329780036,2607,"java.lang.NullPointerException: Cannot invoke ""dev.langchain4j.model.openai.OpenAiChatModel.generate(dev.langchain4j.data.message.ChatMessage[])"" because ""this.ChatModel"" is null",closed,1,2025-08-18T08:45:34Z,2025-08-18T09:04:12Z,2025-08-18T09:03:22Z,Bzdhyp,
+skylot/jadx,3324789914,2606,[core] Unknown enum class pattern,open,1,2025-08-15T09:14:45Z,2025-08-29T19:43:56Z,,benwaffle,"bug,Core,enum"
+skylot/jadx,3320550768,2605,[feature] Can display class version,open,2,2025-08-14T02:56:21Z,2025-08-14T09:33:02Z,,oliver-zhang,new feature
+skylot/jadx,3313000178,2604,[cli] jadx is extremely slow when decompiling large app,closed,1,2025-08-12T07:51:59Z,2025-08-12T07:53:18Z,2025-08-12T07:53:18Z,google-mirror,"bug,GUI"
+skylot/jadx,3310772820,2601,"[core] ""jadx.core.utils.exceptions.JadxRuntimeException: Can't find top splitter block for handler"" error when decompiling APK",open,0,2025-08-11T16:26:24Z,2025-08-11T16:26:24Z,,TheRektafire,"bug,Core"
+skylot/jadx,3308320854,2600,[bug] java.lang.NullPointerException,closed,1,2025-08-11T03:21:41Z,2025-08-11T08:19:05Z,2025-08-11T08:19:05Z,trzusr,
+skylot/jadx,3308010776,2599,[gui] pin jadx to Windows taskbar,open,1,2025-08-10T21:57:15Z,2025-08-14T15:51:39Z,,joko99999,"bug,GUI"
+skylot/jadx,3307764708,2598,[core] The loading status of Jadx scripts is inconsistent.,closed,6,2025-08-10T16:49:57Z,2025-08-12T08:42:14Z,2025-08-12T08:42:14Z,jygzyc,"discussion,waiting for reply,jadx-script"
+skylot/jadx,3297820467,2597,[gui] install pluguin error Can't find compatible version to install,open,1,2025-08-06T19:32:29Z,2025-08-12T10:25:22Z,,H1-N1,"bug,jadx-plugin"
+skylot/jadx,3292076232,2596,[feature] Cannot attach to system APKs without MAIN activity declared in manifest,open,0,2025-08-05T08:13:26Z,2025-08-05T08:13:26Z,,Rongrkang,new feature
+skylot/jadx,3286608824,2594,java.lang.NullPointerException,closed,1,2025-08-03T02:49:20Z,2025-08-03T17:39:53Z,2025-08-03T17:39:53Z,xxpower,
+skylot/jadx,3285567678,2593,[feature] 提升的建议,closed,1,2025-08-02T03:52:44Z,2025-08-03T10:05:29Z,2025-08-03T10:05:29Z,cjdsl,new feature
+skylot/jadx,3279918920,2591,jadx.core.utils.exceptions.JadxRuntimeException: Failed to build hash for inputs,closed,3,2025-07-31T10:25:29Z,2025-10-18T21:10:58Z,2025-10-18T21:10:58Z,Anexo-wq,
+skylot/jadx,3276122671,2590,[feature] Add Support for Displaying META-INF Files of JARs Inside AAR Files,open,0,2025-07-30T08:18:42Z,2025-07-30T08:18:54Z,,beigirad,new feature
+skylot/jadx,3275725102,2589,java.lang.NegativeArraySizeException: -609821789,closed,1,2025-07-30T05:33:34Z,2025-08-03T17:43:17Z,2025-08-03T17:43:17Z,2424162,
+skylot/jadx,3274370313,2588,[core] Incorrect line endings in CFG.,closed,0,2025-07-29T17:08:44Z,2025-08-04T17:10:08Z,2025-08-04T17:10:08Z,beaverxsheet,"bug,Core"
+skylot/jadx,3264943000,2586,java.nio.file.InvalidPathException: Illegal char <:> at index 0: ::{20D04FE0-3AEA-1069-A2D8-08002B30309D},closed,1,2025-07-26T03:08:13Z,2025-07-27T10:34:45Z,2025-07-27T10:34:45Z,ashvik-cs50,
+skylot/jadx,3264066022,2585,[core] Type inference error: updates count limit reached,closed,0,2025-07-25T18:38:33Z,2025-09-09T19:50:05Z,2025-09-09T19:50:05Z,Delta-official,"bug,Core"
+skylot/jadx,3263776011,2584,[gui] 无法精确匹配,closed,0,2025-07-25T16:33:14Z,2025-07-25T17:28:57Z,2025-07-25T17:28:57Z,tianxing-ovo,"bug,GUI"
+skylot/jadx,3263773022,2583,[feature] 接入AI,closed,0,2025-07-25T16:31:45Z,2025-07-25T17:28:53Z,2025-07-25T17:28:53Z,tianxing-ovo,new feature
+skylot/jadx,3258927144,2580,"java.lang.NullPointerException: Cannot invoke ""jadx.api.JavaNode.getCodeNodeRef()"" because the return value of ""jadx.gui.treemodel.JNode.getJavaNode()"" is null",closed,1,2025-07-24T08:01:34Z,2025-07-24T17:38:25Z,2025-07-24T17:38:25Z,hkshiqi,
+skylot/jadx,3256935818,2579,"java.lang.NullPointerException: Cannot invoke ""jadx.gui.ui.codearea.AbstractCodeArea.getSelectedText()"" because ""codeArea"" is null",closed,1,2025-07-23T16:01:44Z,2025-07-24T07:59:37Z,2025-07-24T07:59:37Z,gabyavra,
+skylot/jadx,3254798469,2578,[feature] Missing Windows ARM64 support,closed,9,2025-07-23T04:20:35Z,2025-07-23T19:32:53Z,2025-07-23T19:32:45Z,boombuler,new feature
+skylot/jadx,3253403773,2577,[feature] Save/read preferences data to/from jadx-gui(.l4j).ini file,open,0,2025-07-22T16:51:43Z,2025-07-22T20:58:25Z,,tumatanquang,new feature
+skylot/jadx,3249974776,2576,[feature] Integrate with jadx-collaboration,closed,0,2025-07-21T20:40:53Z,2025-07-21T20:44:19Z,2025-07-21T20:44:19Z,joko99999,new feature
+skylot/jadx,3244520856,2575,jadx.core.utils.exceptions.JadxRuntimeException: Failed to clear directory C:\Users\XXXX\AppData\Local\Temp\jadx-temp-9028579072555110246\jadx-instance-16828034844905192271,open,0,2025-07-18T22:36:13Z,2025-07-18T22:40:40Z,,nzaar9,
+skylot/jadx,3241623181,2574,[core] How to use Jadx's command-line tool for decompilation while using a mapping file for deobfuscation?,closed,1,2025-07-18T02:27:05Z,2025-07-18T07:05:43Z,2025-07-18T07:05:43Z,junmeiRong,"bug,Core"
+skylot/jadx,3235082173,2573,"java.lang.NullPointerException: Cannot invoke ""org.fife.ui.rtextarea.Gutter.removeTrackingIcon(org.fife.ui.rtextarea.GutterIconInfo)"" because ""this.this$1.gutter"" is null",closed,1,2025-07-16T08:58:07Z,2025-08-04T16:52:42Z,2025-08-04T16:52:42Z,ovjust,
+skylot/jadx,3233273420,2572,"java.lang.NullPointerException: Cannot invoke ""jadx.gui.ui.codearea.AbstractCodeArea.getCurrentPosition()"" because the return value of ""jadx.gui.ui.codearea.AbstractCodeContentPanel.getCodeArea()"" is null",closed,1,2025-07-15T18:19:22Z,2025-07-15T20:17:36Z,2025-07-15T20:17:36Z,Artemisxxx37,
+skylot/jadx,3230657314,2571,"[gui] java.lang.NullPointerException: Cannot invoke ""java.awt.Rectangle.equals(Object)"" because ""this.bounds"" is null",open,0,2025-07-15T03:47:39Z,2025-07-15T03:47:39Z,,zxhubo,"bug,GUI"
+skylot/jadx,3229120297,2570,java.lang.RuntimeException: java.nio.file.NoSuchFileException: C:\Users\168\code1\com.zfsoft,closed,0,2025-07-14T15:15:34Z,2025-07-16T07:21:24Z,2025-07-16T07:21:24Z,4everwl,
+skylot/jadx,3228443315,2569,jadx.core.utils.exceptions.JadxRuntimeException: Failed to build hash for inputs,closed,1,2025-07-14T11:33:50Z,2025-10-18T21:10:24Z,2025-10-18T21:10:24Z,wahabkhanwk,
+skylot/jadx,3228061404,2567,java.lang.RuntimeException: Error saving project,closed,2,2025-07-14T09:32:25Z,2025-08-06T13:27:32Z,2025-08-06T08:17:39Z,0xSm0ky,
+skylot/jadx,3224727270,2566,"[core] error:Wrong jadx class set version, got: 3, expect: 5",closed,0,2025-07-12T02:57:36Z,2025-07-12T03:08:42Z,2025-07-12T03:08:42Z,sulab999,"bug,Core"
+skylot/jadx,3223484657,2565,"java.lang.NullPointerException: Cannot invoke ""jadx.gui.ui.codearea.AbstractCodeArea.getCurrentPosition()""",closed,2,2025-07-11T16:18:41Z,2025-07-12T15:41:35Z,2025-07-12T15:41:35Z,NamanAcharya-Dev,
+skylot/jadx,3221891469,2563,"java.lang.NullPointerException: Cannot invoke ""jadx.gui.ui.codearea.AbstractCodeArea.getCurrentPosition()"" because the return value of ""jadx.gui.ui.codearea.AbstractCodeContentPanel.getCodeArea()"" is null",closed,2,2025-07-11T07:31:31Z,2025-07-12T15:42:41Z,2025-07-12T15:42:41Z,CodeChina888,
+skylot/jadx,3221317532,2562,[Feature Suggestion] Replacing the built-in code editor with Monaco Editor,open,4,2025-07-11T03:00:00Z,2025-07-11T07:46:25Z,,LoyieKing,new feature
+skylot/jadx,3218785482,2561,[gui] The aab package typed with targetSdk 35 and compileSdk 35 cannot parse the resource.pb file in the latest jadx version,open,1,2025-07-10T10:31:07Z,2025-07-10T11:12:44Z,,Primer1889,"bug,GUI,resources,waiting for fix confirmation"
+skylot/jadx,3215050757,2559,[gui] Clicking Subclass Constructor Causes Exception and Fails to Jump to Code,closed,8,2025-07-09T08:41:41Z,2025-07-13T18:05:25Z,2025-07-13T18:05:25Z,Ch0pin,"bug,GUI"
+skylot/jadx,3213614871,2558,"java.lang.NullPointerException: Cannot invoke ""jadx.gui.ui.codearea.AbstractCodeArea.getCurrentPosition()"" because the return value of ""jadx.gui.ui.codearea.AbstractCodeContentPanel.getCodeArea()"" is null",closed,1,2025-07-08T19:50:03Z,2025-07-12T15:44:29Z,2025-07-12T15:44:29Z,alexvarboffin,
+skylot/jadx,3206680973,2556,Decompilation plugins,open,2,2025-07-06T15:30:47Z,2025-07-06T17:45:17Z,,nitanmarcel,"question,discussion,waiting for reply,jadx-plugin,jadx-api"
+skylot/jadx,3205824867,2554,"[core] JADX minimum JRE version requirement vs. `--enable-native-access` JVM option in ""bin/jadx"" script",closed,3,2025-07-06T00:02:57Z,2025-07-06T16:59:14Z,2025-07-06T16:57:10Z,muzso,"bug,GUI"
+skylot/jadx,3187095079,2548,[gui] Using Windows shell folder path in File Save dialog,open,1,2025-06-30T04:29:00Z,2025-06-30T08:32:19Z,,saifkhandoodwa,"bug,GUI"
+skylot/jadx,3183811417,2547,[gui] JadxRuntimeException: Decompiler not yet loaded,closed,1,2025-06-27T18:56:45Z,2025-06-29T20:02:15Z,2025-06-29T20:02:15Z,mac3d0,"GUI,debugger"
+skylot/jadx,3178289363,2546,[feature] Add support to deobfuscate smali code,open,0,2025-06-26T08:29:00Z,2025-06-26T08:29:00Z,,beketata,new feature
+skylot/jadx,3177856849,2545,[gui] Clicking on deobfuscate throws error,open,0,2025-06-26T05:55:33Z,2025-06-26T19:44:05Z,,ci9her,"bug,GUI"
+skylot/jadx,3165964283,2544,[core] Can't decompile into a .jar,closed,5,2025-06-22T13:29:23Z,2025-06-22T16:15:37Z,2025-06-22T16:15:37Z,StupidRepo,"bug,Core"
+skylot/jadx,3161755313,2541,[gui] search error,closed,1,2025-06-20T02:43:16Z,2025-06-20T21:37:28Z,2025-06-20T21:37:28Z,AmbroseCdMeng,"bug,GUI"
+skylot/jadx,3160181409,2540,build Jadx-GUI from source,closed,3,2025-06-19T12:35:09Z,2025-06-20T13:27:51Z,2025-06-20T13:26:22Z,Axion11,"new feature,waiting for reply"
+skylot/jadx,3152242352,2539,[java-input] Negative register number,open,2,2025-06-17T06:34:55Z,2025-06-26T19:49:26Z,,Mister-leo,"bug,Core,hard-to-fix,java-input"
+skylot/jadx,3146321568,2536,[feature] 📌 Kotlin Decompiler Plugin Support (Reference: Vineflower Plugin),open,7,2025-06-14T15:48:59Z,2025-10-11T08:21:29Z,,RRLRR,"new feature,jadx-plugin,kotlin"
+skylot/jadx,3144413775,2535,XML files are loaded/extracted as empty file or content is cutoff in Jadx/Jadx-Gui 1.5.2,closed,8,2025-06-13T18:31:05Z,2025-06-16T18:34:22Z,2025-06-16T18:34:21Z,khagaroth,"bug,Core"
+skylot/jadx,3142060803,2534,[feature]: Add support to decompile .aidl code,open,3,2025-06-13T02:38:37Z,2025-06-18T11:19:46Z,,MartLintz,new feature
+skylot/jadx,3136500690,2532,[gui] jadx-gui UI elements are very small,open,5,2025-06-11T11:34:26Z,2025-06-12T03:55:50Z,,lokman2k5,"bug,GUI"
+skylot/jadx,3136348537,2531,[core] Incorrect Hexadecimal Representation for Negative Byte values,closed,5,2025-06-11T10:42:49Z,2025-06-19T21:51:59Z,2025-06-19T21:51:58Z,eybisi,"bug,Core"
+skylot/jadx,3136199425,2530,[feature] Make goto LXXX clickable,open,0,2025-06-11T09:49:41Z,2025-06-17T21:41:16Z,,yooo1999,"enhancement,new feature,GUI,Core"
+skylot/jadx,3136177014,2529,java.lang.StackOverflowError at Jadx version : 1.5.2,open,5,2025-06-11T09:42:39Z,2025-06-17T10:28:18Z,,yooo1999,"bug,GUI"
+skylot/jadx,3112357618,2524,[core] High CPU usage and system halts,open,1,2025-06-03T04:38:10Z,2025-06-03T07:22:20Z,,srzavin,"bug,Core"
+skylot/jadx,3111540876,2522,[gui] Now the search results include classes.dex and search for text in it,closed,7,2025-06-02T20:31:34Z,2025-06-07T18:24:11Z,2025-06-07T18:24:09Z,MrIkso,"bug,GUI"
+skylot/jadx,3111390686,2520,[gui] Empty space or options disapper in search dialog,closed,1,2025-06-02T19:37:46Z,2025-06-22T16:17:59Z,2025-06-22T16:17:59Z,skylot,"bug,GUI"
+skylot/jadx,3107368553,2518,[feature] Preview panel in the search dialog,open,1,2025-06-01T14:50:19Z,2025-06-02T19:42:58Z,,AndreiKud,"new feature,GUI"
+skylot/jadx,3102314126,2517,Search dialog: Esc fallback problem,open,0,2025-05-30T07:15:53Z,2025-05-30T09:53:26Z,,Sam20005,"bug,GUI"
+skylot/jadx,3089537896,2516,[core] it does not do a good job with gemini APK,closed,3,2025-05-25T19:57:51Z,2025-05-29T16:40:47Z,2025-05-29T16:40:47Z,0wwafa,"bug,Core"
+skylot/jadx,3089412607,2514,[gui] Exporting file without extension leads to crash,closed,0,2025-05-25T16:21:49Z,2025-05-25T19:23:37Z,2025-05-25T19:23:37Z,cweiske,"bug,GUI"
+skylot/jadx,3087653391,2507,[feature] Add discussions to github for jadx project,closed,1,2025-05-23T22:25:46Z,2025-05-23T22:58:55Z,2025-05-23T22:58:21Z,Parlane,new feature
+skylot/jadx,3084693069,2504,"[gui] ""Synthetic"" packages can't be renamed",open,0,2025-05-22T22:34:38Z,2025-05-22T22:36:44Z,,skylot,"bug,GUI,rename"
+skylot/jadx,3080472453,2501,[gui] NullPointerExpection when selecting manifest.json of xapk file,closed,1,2025-05-21T14:39:07Z,2025-05-23T23:29:05Z,2025-05-23T23:29:04Z,jpstotz,"bug,GUI"
+skylot/jadx,3075641794,2496,[core] Can Code Cache Mode (DISK) be added to Jadx CLI?,closed,1,2025-05-20T04:50:36Z,2025-05-20T19:39:09Z,2025-05-20T19:39:08Z,Takot2,"bug,Core"
+skylot/jadx,3072067526,2493,"[core] Redundant ""synchronized"" block on static synchronized methods",closed,1,2025-05-18T21:20:05Z,2025-05-24T21:22:44Z,2025-05-24T21:22:43Z,HelloOO7,"bug,Core"
+skylot/jadx,3071883419,2491,[feature] Plugin API: Support Codegen Plugins,open,1,2025-05-18T15:49:42Z,2025-05-18T19:24:49Z,,nitram84,"new feature,discussion,jadx-plugin,jadx-api"
+skylot/jadx,3071015469,2488,"[gui] Resource from resource.arsc not showing, always loading",closed,1,2025-05-17T19:31:30Z,2025-05-17T21:51:56Z,2025-05-17T21:51:56Z,MrIkso,"bug,GUI"
+skylot/jadx,3066962688,2485,[gui] Tree fully reflesh after class renamed,closed,3,2025-05-15T17:35:11Z,2025-05-15T19:54:52Z,2025-05-15T19:54:51Z,MrIkso,"bug,GUI"
+skylot/jadx,3061339481,2482,"[gui] In some cases, nodes are added to the class list that should only be added to one parent class",closed,1,2025-05-13T22:07:26Z,2025-05-18T22:22:24Z,2025-05-18T22:22:23Z,MrIkso,"bug,GUI"
+skylot/jadx,3054057551,2479,[core] switch region decompilation error,open,1,2025-05-10T11:33:42Z,2025-05-10T18:08:08Z,,xunmengh,"bug,Core"
+skylot/jadx,3053102524,2478,Rename/deobfuscation suggestions and ideas,open,0,2025-05-09T20:17:04Z,2025-05-09T20:29:00Z,,skylot,"deobfuscation,Core,discussion,rename"
+skylot/jadx,3044206515,2476,[feature] More infomation on HexViewer(so library),open,4,2025-05-06T22:55:19Z,2025-05-13T19:10:27Z,,RuffaloLavoisier,"question,new feature,discussion"
+skylot/jadx,3037535493,2473,[gui] dex file load from extension,closed,2,2025-05-03T17:58:21Z,2025-05-03T20:59:35Z,2025-05-03T20:59:34Z,RuffaloLavoisier,"bug,Core"
+skylot/jadx,3035177931,2472,"[gui] can comment, but can't see the typing process",closed,3,2025-05-02T04:52:30Z,2025-05-02T16:04:08Z,2025-05-02T16:04:08Z,LunFengChen,"bug,GUI"

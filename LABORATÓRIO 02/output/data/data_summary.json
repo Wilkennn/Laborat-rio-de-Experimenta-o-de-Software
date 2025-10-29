@@ -1,0 +1,8 @@
+{
+  "total_repositories": 100,
+  "total_metrics": 17,
+  "data_quality": {
+    "complete_records": 100,
+    "missing_data_percentage": 0.0
+  }
+}

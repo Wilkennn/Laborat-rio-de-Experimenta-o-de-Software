@@ -1,0 +1,20 @@
+repo_full_name,language,bytes
+elastic/elasticsearch,Java,201509284
+elastic/elasticsearch,Groovy,487246
+elastic/elasticsearch,StringTemplate,313927
+elastic/elasticsearch,Shell,118254
+elastic/elasticsearch,ANTLR,76025
+elastic/elasticsearch,Dockerfile,40640
+elastic/elasticsearch,C,24133
+elastic/elasticsearch,Python,21726
+elastic/elasticsearch,Batchfile,12716
+elastic/elasticsearch,C++,12649
+elastic/elasticsearch,TypeScript,11771
+elastic/elasticsearch,PowerShell,7780
+elastic/elasticsearch,CSS,5424
+elastic/elasticsearch,Emacs Lisp,3341
+elastic/elasticsearch,AMPL,3121
+elastic/elasticsearch,HTML,2186
+elastic/elasticsearch,JavaScript,1268
+elastic/elasticsearch,Mustache,58
+elastic/elasticsearch,FreeMarker,45

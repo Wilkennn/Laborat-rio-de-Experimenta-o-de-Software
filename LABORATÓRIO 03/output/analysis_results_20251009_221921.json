@@ -1,0 +1,838 @@
+{
+  "dataset_info": {
+    "total_prs": 352,
+    "merged_prs": 230,
+    "closed_prs": 122,
+    "unique_repositories": 5,
+    "date_range": {
+      "start": "2016-04-27T03:14:59Z",
+      "end": "2025-10-09T21:08:58Z"
+    },
+    "merge_rate": 65.3409090909091
+  },
+  "rq_a_feedback": {
+    "rq01_size_vs_feedback": {
+      "question": "RQ01: Qual a relação entre o tamanho dos PRs e o feedback final das revisões?",
+      "metrics_analyzed": [
+        "files_changed",
+        "additions",
+        "deletions",
+        "total_changes"
+      ],
+      "statistical_tests": {
+        "files_changed": {
+          "test": "Mann-Whitney U",
+          "statistic": 19029.5,
+          "p_value": 2.0807149781662782e-11,
+          "significant": "True",
+          "effect_size": 0.3563435495367071
+        },
+        "additions": {
+          "test": "Mann-Whitney U",
+          "statistic": 19814.0,
+          "p_value": 2.2544008859441374e-11,
+          "significant": "True",
+          "effect_size": 0.4122594440484675
+        },
+        "deletions": {
+          "test": "Mann-Whitney U",
+          "statistic": 18627.5,
+          "p_value": 6.381102238365765e-08,
+          "significant": "True",
+          "effect_size": 0.3276906628652887
+        },
+        "total_changes": {
+          "test": "Mann-Whitney U",
+          "statistic": 19818.0,
+          "p_value": 6.601062296730497e-11,
+          "significant": "True",
+          "effect_size": 0.41254454739843194
+        }
+      },
+      "descriptive_stats": {
+        "files_changed": {
+          "merged": {
+            "count": 230,
+            "median": 1.0,
+            "mean": 11.560869565217391,
+            "std": 38.86088995120295,
+            "q25": 1.0,
+            "q75": 5.0
+          },
+          "closed": {
+            "count": 122,
+            "median": 1.0,
+            "mean": 19.42622950819672,
+            "std": 201.33607108812643,
+            "q25": 1.0,
+            "q75": 1.0
+          }
+        },
+        "additions": {
+          "merged": {
+            "count": 230,
+            "median": 5.0,
+            "mean": 279.54347826086956,
+            "std": 1068.2787671306864,
+            "q25": 1.0,
+            "q75": 85.0
+          },
+          "closed": {
+            "count": 122,
+            "median": 1.0,
+            "mean": 103.17213114754098,
+            "std": 972.5124120614619,
+            "q25": 1.0,
+            "q75": 2.0
+          }
+        },
+        "deletions": {
+          "merged": {
+            "count": 230,
+            "median": 1.0,
+            "mean": 64.05652173913043,
+            "std": 239.54414736759318,
+            "q25": 0.0,
+            "q75": 11.0
+          },
+          "closed": {
+            "count": 122,
+            "median": 0.0,
+            "mean": 171.29508196721312,
+            "std": 1867.8461529392598,
+            "q25": 0.0,
+            "q75": 1.0
+          }
+        },
+        "total_changes": {
+          "merged": {
+            "count": 230,
+            "median": 8.0,
+            "mean": 343.6,
+            "std": 1228.3892908120208,
+            "q25": 1.0,
+            "q75": 129.25
+          },
+          "closed": {
+            "count": 122,
+            "median": 1.0,
+            "mean": 274.4672131147541,
+            "std": 2838.8879069986037,
+            "q25": 1.0,
+            "q75": 3.0
+          }
+        }
+      },
+      "interpretation": "Análise da relação entre tamanho dos PRs e feedback final:\n- files_changed: Diferença estatisticamente significante (p=0.0000)\n- additions: Diferença estatisticamente significante (p=0.0000)\n- deletions: Diferença estatisticamente significante (p=0.0000)\n- total_changes: Diferença estatisticamente significante (p=0.0000)\n"
+    },
+    "rq02_time_vs_feedback": {
+      "question": "RQ02: Qual a relação entre o tempo de análise dos PRs e o feedback final das revisões?",
+      "metrics_analyzed": [
+        "analysis_time_hours",
+        "analysis_time_days"
+      ],
+      "statistical_tests": {
+        "analysis_time_hours": {
+          "test": "Mann-Whitney U",
+          "statistic": 7606.0,
+          "p_value": 1.5472024400032663e-12,
+          "significant": "True",
+          "effect_size": 0.45787598004276553
+        },
+        "analysis_time_days": {
+          "test": "Mann-Whitney U",
+          "statistic": 7606.0,
+          "p_value": 1.5472024400032663e-12,
+          "significant": "True",
+          "effect_size": 0.45787598004276553
+        }
+      },
+      "descriptive_stats": {
+        "analysis_time_hours": {
+          "merged": {
+            "count": 230,
+            "median": 43.44916666666667,
+            "mean": 950.6497777777777,
+            "std": 2593.6813353156385
+          },
+          "closed": {
+            "count": 122,
+            "median": 1659.6943055555557,
+            "mean": 5157.110469034608,
+            "std": 9030.18060931583
+          }
+        },
+        "analysis_time_days": {
+          "merged": {
+            "count": 230,
+            "median": 1.8103819444444444,
+            "mean": 39.610407407407415,
+            "std": 108.07005563815163
+          },
+          "closed": {
+            "count": 122,
+            "median": 69.15392939814815,
+            "mean": 214.87960287644202,
+            "std": 376.25752538815965
+          }
+        }
+      },
+      "interpretation": "Análise da relação entre tempo de análise e feedback final:\n- analysis_time_hours: Diferença estatisticamente significante (p=0.0000)\n- analysis_time_days: Diferença estatisticamente significante (p=0.0000)\n"
+    },
+    "rq03_description_vs_feedback": {
+      "question": "RQ03: Qual a relação entre a descrição dos PRs e o feedback final das revisões?",
+      "metrics_analyzed": [
+        "description_length",
+        "has_description"
+      ],
+      "statistical_tests": {
+        "description_length": {
+          "test": "Mann-Whitney U",
+          "statistic": 14299.0,
+          "p_value": 0.7675387466767496,
+          "significant": "False"
+        },
+        "has_description": {
+          "test": "Chi-quadrado",
+          "statistic": 5.75456221928068,
+          "p_value": 0.016445893120253817,
+          "significant": "True",
+          "contingency_table": {
+            "false": {
+              "CLOSED": 7,
+              "MERGED": 2
+            },
+            "true": {
+              "CLOSED": 115,
+              "MERGED": 228
+            }
+          }
+        }
+      },
+      "descriptive_stats": {
+        "description_length": {
+          "merged": {
+            "count": 230,
+            "median": 878.0,
+            "mean": 2039.208695652174,
+            "std": 2814.695536043418
+          },
+          "closed": {
+            "count": 122,
+            "median": 902.0,
+            "mean": 3067.032786885246,
+            "std": 3864.9009843398126
+          }
+        }
+      },
+      "interpretation": "Análise da relação entre descrição dos PRs e feedback final realizada."
+    },
+    "rq04_interactions_vs_feedback": {
+      "question": "RQ04: Qual a relação entre as interações nos PRs e o feedback final das revisões?",
+      "metrics_analyzed": [
+        "participants_count",
+        "comments_count",
+        "review_comments_count",
+        "total_comments"
+      ],
+      "statistical_tests": {
+        "participants_count": {
+          "test": "Mann-Whitney U",
+          "statistic": 16557.0,
+          "p_value": 0.0037539525166374226,
+          "significant": "True"
+        },
+        "comments_count": {
+          "test": "Mann-Whitney U",
+          "statistic": 12331.5,
+          "p_value": 0.05353358640724405,
+          "significant": "False"
+        },
+        "review_comments_count": {
+          "test": "Mann-Whitney U",
+          "statistic": 14030.0,
+          "p_value": 1.0,
+          "significant": "False"
+        },
+        "total_comments": {
+          "test": "Mann-Whitney U",
+          "statistic": 12331.5,
+          "p_value": 0.05353358640724405,
+          "significant": "False"
+        }
+      },
+      "descriptive_stats": {
+        "participants_count": {
+          "merged": {
+            "count": 230,
+            "median": 3.0,
+            "mean": 3.465217391304348,
+            "std": 1.0263381703273509
+          },
+          "closed": {
+            "count": 122,
+            "median": 3.0,
+            "mean": 3.1639344262295084,
+            "std": 1.2554716985050633
+          }
+        },
+        "comments_count": {
+          "merged": {
+            "count": 230,
+            "median": 1.0,
+            "mean": 2.8347826086956522,
+            "std": 4.843273703898558
+          },
+          "closed": {
+            "count": 122,
+            "median": 1.0,
+            "mean": 3.180327868852459,
+            "std": 4.13014796413678
+          }
+        },
+        "review_comments_count": {
+          "merged": {
+            "count": 230,
+            "median": 0.0,
+            "mean": 0.0,
+            "std": 0.0
+          },
+          "closed": {
+            "count": 122,
+            "median": 0.0,
+            "mean": 0.0,
+            "std": 0.0
+          }
+        },
+        "total_comments": {
+          "merged": {
+            "count": 230,
+            "median": 1.0,
+            "mean": 2.8347826086956522,
+            "std": 4.843273703898558
+          },
+          "closed": {
+            "count": 122,
+            "median": 1.0,
+            "mean": 3.180327868852459,
+            "std": 4.13014796413678
+          }
+        }
+      },
+      "interpretation": "Análise da relação entre interações nos PRs e feedback final realizada."
+    }
+  },
+  "rq_b_reviews": {
+    "rq05_size_vs_reviews": {
+      "question": "RQ05: Qual a relação entre o tamanho dos PRs e o número de revisões realizadas?",
+      "correlations": {
+        "files_changed": {
+          "spearman": {
+            "correlation": 0.11767497925686936,
+            "p_value": 0.05958830311289695,
+            "significant": "False"
+          },
+          "pearson": {
+            "correlation": 0.06626523491189756,
+            "p_value": 0.28991975379706364,
+            "significant": "False"
+          },
+          "sample_size": 257
+        },
+        "total_changes": {
+          "spearman": {
+            "correlation": 0.10801438620271393,
+            "p_value": 0.07753447945366518,
+            "significant": "False"
+          },
+          "pearson": {
+            "correlation": 0.08736288551588649,
+            "p_value": 0.1538004252628322,
+            "significant": "False"
+          },
+          "sample_size": 268
+        },
+        "additions": {
+          "spearman": {
+            "correlation": 0.18917875933574815,
+            "p_value": 0.0018667591349720751,
+            "significant": "True"
+          },
+          "pearson": {
+            "correlation": 0.09127812599970571,
+            "p_value": 0.13611497606961065,
+            "significant": "False"
+          },
+          "sample_size": 268
+        },
+        "deletions": {
+          "spearman": {
+            "correlation": -0.02879937253741353,
+            "p_value": 0.6439133128317541,
+            "significant": "False"
+          },
+          "pearson": {
+            "correlation": 0.04838064812948216,
+            "p_value": 0.43727048775275773,
+            "significant": "False"
+          },
+          "sample_size": 260
+        }
+      },
+      "interpretation": "Análise da correlação entre tamanho dos PRs e número de revisões:\n- files_changed: Correlação positiva fraca (ρ=0.118, não significante)\n- total_changes: Correlação positiva fraca (ρ=0.108, não significante)\n- additions: Correlação positiva fraca (ρ=0.189, significante)\n- deletions: Correlação negativa muito fraca (ρ=-0.029, não significante)\n"
+    },
+    "rq06_time_vs_reviews": {
+      "question": "RQ06: Qual a relação entre o tempo de análise dos PRs e o número de revisões realizadas?",
+      "correlations": {
+        "analysis_time_hours": {
+          "spearman": {
+            "correlation": 0.19855756013126613,
+            "p_value": 0.0008910011389536464,
+            "significant": "True"
+          },
+          "pearson": {
+            "correlation": 0.13849716496000938,
+            "p_value": 0.021124522667463355,
+            "significant": "True"
+          },
+          "sample_size": 277
+        }
+      },
+      "interpretation": "Análise da correlação entre tempo de análise e número de revisões realizada."
+    },
+    "rq07_description_vs_reviews": {
+      "question": "RQ07: Qual a relação entre a descrição dos PRs e o número de revisões realizadas?",
+      "correlations": {
+        "description_length": {
+          "spearman": {
+            "correlation": 0.1345037329016601,
+            "p_value": 0.030142004536231944,
+            "significant": "True"
+          },
+          "sample_size": 260
+        }
+      },
+      "group_analysis": {
+        "has_description": {
+          "with_description": {
+            "count": 343,
+            "median": 2.0,
+            "mean": 3.17201166180758
+          },
+          "without_description": {
+            "count": 9,
+            "median": 1.0,
+            "mean": 1.1111111111111112
+          },
+          "statistical_test": {
+            "test": "Mann-Whitney U",
+            "statistic": 2483.0,
+            "p_value": 0.0013165730946423102,
+            "significant": "True"
+          }
+        }
+      },
+      "interpretation": "Análise da correlação entre descrição e número de revisões realizada."
+    },
+    "rq08_interactions_vs_reviews": {
+      "question": "RQ08: Qual a relação entre as interações nos PRs e o número de revisões realizadas?",
+      "correlations": {
+        "participants_count": {
+          "spearman": {
+            "correlation": 0.5525865360674842,
+            "p_value": 7.378983024179259e-28,
+            "significant": "True"
+          },
+          "sample_size": 331
+        },
+        "total_comments": {
+          "spearman": {
+            "correlation": 0.14218023370970664,
+            "p_value": 0.014026315617165722,
+            "significant": "True"
+          },
+          "sample_size": 298
+        }
+      },
+      "interpretation": "Análise da correlação entre interações e número de revisões realizada."
+    }
+  },
+  "summary_statistics": {
+    "number": {
+      "count": 352,
+      "mean": 27487.960227272728,
+      "median": 12164.5,
+      "std": 27866.00480706277,
+      "min": 349.0,
+      "max": 62654.0,
+      "q25": 3152.75,
+      "q75": 62243.25
+    },
+    "participants_count": {
+      "count": 352,
+      "mean": 3.3607954545454546,
+      "median": 3.0,
+      "std": 1.11858042065475,
+      "min": 1.0,
+      "max": 5.0,
+      "q25": 2.0,
+      "q75": 4.0
+    },
+    "comments_count": {
+      "count": 352,
+      "mean": 2.9545454545454546,
+      "median": 1.0,
+      "std": 4.605605629187459,
+      "min": 0.0,
+      "max": 31.0,
+      "q25": 0.0,
+      "q75": 4.0
+    },
+    "review_comments_count": {
+      "count": 352,
+      "mean": 0.0,
+      "median": 0.0,
+      "std": 0.0,
+      "min": 0.0,
+      "max": 0.0,
+      "q25": 0.0,
+      "q75": 0.0
+    },
+    "total_comments": {
+      "count": 352,
+      "mean": 2.9545454545454546,
+      "median": 1.0,
+      "std": 4.605605629187459,
+      "min": 0.0,
+      "max": 31.0,
+      "q25": 0.0,
+      "q75": 4.0
+    },
+    "reviews_count": {
+      "count": 352,
+      "mean": 3.1193181818181817,
+      "median": 2.0,
+      "std": 3.3609915086569204,
+      "min": 1.0,
+      "max": 41.0,
+      "q25": 1.0,
+      "q75": 4.0
+    },
+    "files_changed": {
+      "count": 352,
+      "mean": 14.286931818181818,
+      "median": 1.0,
+      "std": 122.36559601454704,
+      "min": 0.0,
+      "max": 2225.0,
+      "q25": 1.0,
+      "q75": 2.0
+    },
+    "additions": {
+      "count": 352,
+      "mean": 218.41477272727272,
+      "median": 2.0,
+      "std": 1038.1036972108861,
+      "min": 0.0,
+      "max": 13587.0,
+      "q25": 1.0,
+      "q75": 28.25
+    },
+    "deletions": {
+      "count": 352,
+      "mean": 101.22443181818181,
+      "median": 1.0,
+      "std": 1114.7902863477457,
+      "min": 0.0,
+      "max": 20633.0,
+      "q25": 0.0,
+      "q75": 4.0
+    },
+    "total_changes": {
+      "count": 352,
+      "mean": 319.63920454545456,
+      "median": 3.0,
+      "std": 1940.0573736478823,
+      "min": 0.0,
+      "max": 31365.0,
+      "q25": 1.0,
+      "q75": 46.25
+    },
+    "description_length": {
+      "count": 352,
+      "mean": 2395.443181818182,
+      "median": 902.0,
+      "std": 3249.3265981572,
+      "min": 0.0,
+      "max": 9595.0,
+      "q25": 734.5,
+      "q75": 1723.75
+    },
+    "analysis_time_hours": {
+      "count": 352,
+      "mean": 2408.5708128156566,
+      "median": 101.26680555555555,
+      "std": 6043.028662280443,
+      "min": 1.0808333333333333,
+      "max": 53080.57166666666,
+      "q25": 19.652916666666666,
+      "q75": 1754.5157638888888
+    },
+    "analysis_time_days": {
+      "count": 352,
+      "mean": 100.35711720065237,
+      "median": 4.219450231481481,
+      "std": 251.7928609283518,
+      "min": 0.04503472222222222,
+      "max": 2211.690486111111,
+      "q25": 0.8188715277777778,
+      "q75": 73.10482349537037
+    },
+    "files_per_change": {
+      "count": 352,
+      "mean": 0.4980752908670793,
+      "median": 0.5,
+      "std": 0.4209923087912213,
+      "min": 0.0,
+      "max": 2.0,
+      "q25": 0.07056531962378448,
+      "q75": 1.0
+    },
+    "avg_comments_per_participant": {
+      "count": 352,
+      "mean": 0.7642045454545456,
+      "median": 0.3333333333333333,
+      "std": 1.0733108294336127,
+      "min": 0.0,
+      "max": 7.0,
+      "q25": 0.0,
+      "q75": 1.0
+    },
+    "complexity_score": {
+      "count": 352,
+      "mean": 821.9442552083333,
+      "median": 77.291,
+      "std": 1907.83435280537,
+      "min": 1.0599166666666666,
+      "max": 15924.3715,
+      "q25": 12.638958333333331,
+      "q75": 756.76325
+    }
+  },
+  "correlation_analysis": {
+    "spearman_matrix": {
+      "files_changed": {
+        "files_changed": 1.0,
+        "total_changes": 0.7663184681120221,
+        "additions": 0.7613694720199113,
+        "deletions": 0.5589824314663249,
+        "analysis_time_hours": -0.16073443952439195,
+        "description_length": -0.19826494616264526,
+        "participants_count": 0.17901675050488017,
+        "total_comments": -0.1580818022898446,
+        "reviews_count": 0.4034037737379441
+      },
+      "total_changes": {
+        "files_changed": 0.7663184681120221,
+        "total_changes": 1.0,
+        "additions": 0.9441052292736278,
+        "deletions": 0.7163985422373339,
+        "analysis_time_hours": -0.30694660119448397,
+        "description_length": -0.25705993713920705,
+        "participants_count": 0.07676618807919847,
+        "total_comments": -0.24565930128699026,
+        "reviews_count": 0.3055276897480855
+      },
+      "additions": {
+        "files_changed": 0.7613694720199113,
+        "total_changes": 0.9441052292736278,
+        "additions": 1.0,
+        "deletions": 0.5691758228509065,
+        "analysis_time_hours": -0.2455574777704103,
+        "description_length": -0.17961112918509556,
+        "participants_count": 0.11127333761716822,
+        "total_comments": -0.17976451238899688,
+        "reviews_count": 0.37460168628209917
+      },
+      "deletions": {
+        "files_changed": 0.5589824314663249,
+        "total_changes": 0.7163985422373339,
+        "additions": 0.5691758228509065,
+        "deletions": 1.0,
+        "analysis_time_hours": -0.31188024431448413,
+        "description_length": -0.30139612357645584,
+        "participants_count": 0.051442522242524026,
+        "total_comments": -0.35209593259034866,
+        "reviews_count": 0.11349056485590846
+      },
+      "analysis_time_hours": {
+        "files_changed": -0.16073443952439195,
+        "total_changes": -0.30694660119448397,
+        "additions": -0.2455574777704103,
+        "deletions": -0.31188024431448413,
+        "analysis_time_hours": 1.0,
+        "description_length": 0.1108272277427841,
+        "participants_count": 0.2908108957097461,
+        "total_comments": 0.3872084147588077,
+        "reviews_count": 0.13328086141683126
+      },
+      "description_length": {
+        "files_changed": -0.19826494616264526,
+        "total_changes": -0.25705993713920705,
+        "additions": -0.17961112918509556,
+        "deletions": -0.30139612357645584,
+        "analysis_time_hours": 0.1108272277427841,
+        "description_length": 1.0,
+        "participants_count": 0.31485809143813537,
+        "total_comments": 0.4967323981123735,
+        "reviews_count": 0.23689868137532225
+      },
+      "participants_count": {
+        "files_changed": 0.17901675050488017,
+        "total_changes": 0.07676618807919847,
+        "additions": 0.11127333761716822,
+        "deletions": 0.051442522242524026,
+        "analysis_time_hours": 0.2908108957097461,
+        "description_length": 0.31485809143813537,
+        "participants_count": 1.0,
+        "total_comments": 0.4836649903207367,
+        "reviews_count": 0.5805843382852588
+      },
+      "total_comments": {
+        "files_changed": -0.1580818022898446,
+        "total_changes": -0.24565930128699026,
+        "additions": -0.17976451238899688,
+        "deletions": -0.35209593259034866,
+        "analysis_time_hours": 0.3872084147588077,
+        "description_length": 0.4967323981123735,
+        "participants_count": 0.4836649903207367,
+        "total_comments": 1.0,
+        "reviews_count": 0.27384563365426984
+      },
+      "reviews_count": {
+        "files_changed": 0.4034037737379441,
+        "total_changes": 0.3055276897480855,
+        "additions": 0.37460168628209917,
+        "deletions": 0.11349056485590846,
+        "analysis_time_hours": 0.13328086141683126,
+        "description_length": 0.23689868137532225,
+        "participants_count": 0.5805843382852588,
+        "total_comments": 0.27384563365426984,
+        "reviews_count": 1.0
+      }
+    },
+    "pearson_matrix": {
+      "files_changed": {
+        "files_changed": 1.0,
+        "total_changes": 0.869140705964235,
+        "additions": 0.5741002771725902,
+        "deletions": 0.9779482548349915,
+        "analysis_time_hours": 0.015262641185135824,
+        "description_length": -0.04956066966084786,
+        "participants_count": 0.05473301458079482,
+        "total_comments": 0.03016795350532656,
+        "reviews_count": 0.21708151673266943
+      },
+      "total_changes": {
+        "files_changed": 0.869140705964235,
+        "total_changes": 1.0,
+        "additions": 0.8934356865498064,
+        "deletions": 0.9083129774459849,
+        "analysis_time_hours": -0.0058383979307869835,
+        "description_length": -0.08085946415539486,
+        "participants_count": 0.0765552798906964,
+        "total_comments": 0.0019992856341654345,
+        "reviews_count": 0.29857245710008884
+      },
+      "additions": {
+        "files_changed": 0.5741002771725902,
+        "total_changes": 0.8934356865498064,
+        "additions": 1.0,
+        "deletions": 0.6236265267773958,
+        "analysis_time_hours": -0.03574722934827204,
+        "description_length": -0.1063296937272036,
+        "participants_count": 0.09621700028346325,
+        "total_comments": -0.02935073140810579,
+        "reviews_count": 0.34892446793126974
+      },
+      "deletions": {
+        "files_changed": 0.9779482548349915,
+        "total_changes": 0.9083129774459849,
+        "additions": 0.6236265267773958,
+        "deletions": 1.0,
+        "analysis_time_hours": 0.02312767191400738,
+        "description_length": -0.041703585016596316,
+        "participants_count": 0.04363009985866218,
+        "total_comments": 0.030811025219567648,
+        "reviews_count": 0.1946804878157158
+      },
+      "analysis_time_hours": {
+        "files_changed": 0.015262641185135824,
+        "total_changes": -0.0058383979307869835,
+        "additions": -0.03574722934827204,
+        "deletions": 0.02312767191400738,
+        "analysis_time_hours": 1.0,
+        "description_length": 0.06384168345500067,
+        "participants_count": -0.031498562295072516,
+        "total_comments": 0.1169334792360545,
+        "reviews_count": -0.07515635679455866
+      },
+      "description_length": {
+        "files_changed": -0.04956066966084786,
+        "total_changes": -0.08085946415539486,
+        "additions": -0.1063296937272036,
+        "deletions": -0.041703585016596316,
+        "analysis_time_hours": 0.06384168345500067,
+        "description_length": 1.0,
+        "participants_count": 0.5335202006588696,
+        "total_comments": 0.6686229240914459,
+        "reviews_count": 0.12122783035022906
+      },
+      "participants_count": {
+        "files_changed": 0.05473301458079482,
+        "total_changes": 0.0765552798906964,
+        "additions": 0.09621700028346325,
+        "deletions": 0.04363009985866218,
+        "analysis_time_hours": -0.031498562295072516,
+        "description_length": 0.5335202006588696,
+        "participants_count": 1.0,
+        "total_comments": 0.5313241909288006,
+        "reviews_count": 0.43031776718031584
+      },
+      "total_comments": {
+        "files_changed": 0.03016795350532656,
+        "total_changes": 0.0019992856341654345,
+        "additions": -0.02935073140810579,
+        "deletions": 0.030811025219567648,
+        "analysis_time_hours": 0.1169334792360545,
+        "description_length": 0.6686229240914459,
+        "participants_count": 0.5313241909288006,
+        "total_comments": 1.0,
+        "reviews_count": 0.29593764377797915
+      },
+      "reviews_count": {
+        "files_changed": 0.21708151673266943,
+        "total_changes": 0.29857245710008884,
+        "additions": 0.34892446793126974,
+        "deletions": 0.1946804878157158,
+        "analysis_time_hours": -0.07515635679455866,
+        "description_length": 0.12122783035022906,
+        "participants_count": 0.43031776718031584,
+        "total_comments": 0.29593764377797915,
+        "reviews_count": 1.0
+      }
+    },
+    "metrics_analyzed": [
+      "files_changed",
+      "total_changes",
+      "additions",
+      "deletions",
+      "analysis_time_hours",
+      "description_length",
+      "participants_count",
+      "total_comments",
+      "reviews_count"
+    ],
+    "sample_size": 352
+  }
+}

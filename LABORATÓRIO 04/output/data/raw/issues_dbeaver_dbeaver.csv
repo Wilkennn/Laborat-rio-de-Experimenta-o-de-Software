@@ -1,0 +1,105 @@
+repo_full_name,id,number,title,state,comments,created_at,updated_at,closed_at,user_login,labels
+dbeaver/dbeaver,3566361897,39517,table / subquery not found ( autocomplete / trouble marker impact),open,0,2025-10-29T14:43:56Z,2025-10-29T14:43:56Z,,dave1132000,wait for review
+dbeaver/dbeaver,3566021782,39516,Flatpak doesn't lauch - java.lang.ClassNotFoundException: org.eclipse.core.runtime.adaptor.EclipseStarter,open,0,2025-10-29T13:34:17Z,2025-10-29T13:34:45Z,,vitekzach,wait for review
+dbeaver/dbeaver,3565298151,39515,Splash screen flips upside down on startup,open,0,2025-10-29T10:27:30Z,2025-10-29T10:28:43Z,,daelynum,"xo:macos,xf:ui"
+dbeaver/dbeaver,3564784491,39514,SQL Error [65011] [99999]: ORA-65011: Pluggable database PDBID_INVALID does not exist.,open,0,2025-10-29T07:55:22Z,2025-10-29T08:50:34Z,,neilsteyn,"x:oracle,xf:datatransfer,wait for review"
+dbeaver/dbeaver,3564375440,39513,App goes away by clicking menus on MacBook Tahoe,open,1,2025-10-29T05:08:24Z,2025-10-29T08:49:41Z,,dave-norris,"xo:macos,wait for response"
+dbeaver/dbeaver,3562095368,39511,"mariadb dump setting ""Add DROP stateatements"" does not work",open,0,2025-10-28T15:22:07Z,2025-10-29T08:47:16Z,,tomeli5n,"x:maria,wait for review,xf:native clients"
+dbeaver/dbeaver,3561234622,39509,SQL Editor Assist and Auto Complete,open,2,2025-10-28T11:57:57Z,2025-10-28T14:35:28Z,,DmitryNeverovich,"xp:normal,xf:sql autocompletion"
+dbeaver/dbeaver,3560287572,39503,pg_restore not working with flatpak,open,1,2025-10-28T08:02:48Z,2025-10-28T15:18:59Z,,FStefanni,xf:flatpak
+dbeaver/dbeaver,3559841627,39502,[Oracle] Last analyzed time not showing in Oracle,open,1,2025-10-28T05:10:00Z,2025-10-28T07:25:00Z,,ghiki,"x:oracle,xf:metadata,xp:normal"
+dbeaver/dbeaver,3556835952,39499,Dark Theme bug appearance,open,3,2025-10-27T13:36:36Z,2025-10-29T08:32:56Z,,w0rthless888,"xo:windows,xf:dark theme,wait for response"
+dbeaver/dbeaver,3555849434,39496,Table size not refreseshed,open,1,2025-10-27T09:28:21Z,2025-10-28T07:31:59Z,,BorisAlfa,"x:maria,xf:metadata,xp:normal"
+dbeaver/dbeaver,3552728172,39495,DBeaver always minimized after running its update,open,0,2025-10-25T17:05:16Z,2025-10-28T07:30:02Z,,mcsilver,"wait for review,xf:installation"
+dbeaver/dbeaver,3550227466,39494,dbeaver 24.x to 25.x   gets my old  connections/ scripts from dbeaver v6.   how to delete  dbeaver v6 profile..,open,1,2025-10-24T16:39:22Z,2025-10-25T05:23:20Z,,blackholeearth,question
+dbeaver/dbeaver,3549866408,39492,ORACLE not all tables shows,open,0,2025-10-24T14:52:27Z,2025-10-28T07:28:35Z,,alr888rav,"x:oracle,wait for review"
+dbeaver/dbeaver,3549115496,39490,Autocompletion not working easily with DuckDB?,open,1,2025-10-24T12:00:03Z,2025-10-28T07:33:10Z,,ericemc3,"wait for review,x:duckdb,xf:sql autocompletion"
+dbeaver/dbeaver,3548772208,39489,Can't resolve array data type Array(Nullable(DateTime64(3))) in ClickHouse on DBeaver 25.2.3,open,1,2025-10-24T10:36:51Z,2025-10-28T12:55:17Z,,manyyy,"x:clickhouse,wait for response"
+dbeaver/dbeaver,3548458386,39488,Missing dbeaver-cli.exe in Windows package since 25.2.3,closed,2,2025-10-24T09:22:51Z,2025-10-24T18:51:40Z,2025-10-24T18:51:40Z,RoiSoleil,"xo:windows,xf:packaging"
+dbeaver/dbeaver,3547881166,39487,Duplicate unique index create statement when making DDL.,open,0,2025-10-24T06:37:35Z,2025-10-28T07:33:25Z,,chojunki,"x:oracle,wait for review"
+dbeaver/dbeaver,3544065298,39484,Some export formats involving character 0x00 crash partway through,open,0,2025-10-23T10:19:41Z,2025-10-23T10:19:41Z,,Zelphium,wait for review
+dbeaver/dbeaver,3542791841,39482,procedures menu not shown,open,1,2025-10-23T01:04:16Z,2025-10-24T11:26:30Z,,Ramesh-Konge,"x:postgresql,xf:navigator,xf:metadata"
+dbeaver/dbeaver,3541727273,39481,"AI Assistant: Allow disabling or auto-omitting ""temperature"" parameter in AI Assistant for unsupported models",open,1,2025-10-22T17:32:56Z,2025-10-24T13:52:44Z,,cdxf,xf:ai
+dbeaver/dbeaver,3540535036,39473,wrong length and precission when altering a column to decimal in table properties on MS SQL,open,1,2025-10-22T11:48:40Z,2025-10-28T13:46:50Z,,haglse,"x:mssql,xf:metadata,xp:normal,xf:data editor"
+dbeaver/dbeaver,3540121931,39472,Error parsing plan when WITH (...) is used,open,2,2025-10-22T10:00:24Z,2025-10-22T16:10:24Z,,Radek102Novak,wait for response
+dbeaver/dbeaver,3540036036,39471,search-box should display number of hits and current hit,open,2,2025-10-22T09:41:01Z,2025-10-23T14:09:10Z,,DerPeterA,"xo:eclipse,third party issue,xf:ui"
+dbeaver/dbeaver,3539550269,39469,plugin install freeze on fetching artifacts.xml.xz from dbeaver.io,closed,2,2025-10-22T07:57:20Z,2025-10-28T13:07:53Z,2025-10-28T13:07:53Z,MVN7788,"wait for response,xf:installation"
+dbeaver/dbeaver,3539249372,39468,Label width adaptation,open,1,2025-10-22T06:05:32Z,2025-10-22T15:13:04Z,,riicomok,"wait for review,xf:ui"
+dbeaver/dbeaver,3538934292,39467,Error inserting row  and / by zero,open,2,2025-10-22T03:08:04Z,2025-10-22T15:12:10Z,,davidbuzz,"x:mysql,xf:datatransfer,wait for response"
+dbeaver/dbeaver,3538542581,39465,Export boolean as 1|0 or true/false option,open,1,2025-10-21T23:50:42Z,2025-10-28T07:10:04Z,,spetr0s,"xf:datatransfer,wait for response,xf:ui"
+dbeaver/dbeaver,3537955198,39464,"[BUG] SQL query returns no results with default (200) row limit, but works with high limit (999999)",open,3,2025-10-21T19:45:30Z,2025-10-27T01:02:03Z,,Rodrigomsdevs,"x:mssql,wait for response"
+dbeaver/dbeaver,3537160125,39462,What on earth are you doing to your users?,open,3,2025-10-21T15:55:01Z,2025-10-24T13:21:37Z,,DriessenUwe,wait for review
+dbeaver/dbeaver,3537137936,39461,Syntax analyser vs PostgreSQL daterange,open,1,2025-10-21T15:48:25Z,2025-10-22T15:06:46Z,,GAEREL,"x:postgresql,wait for review,xf:sql editor"
+dbeaver/dbeaver,3537061213,39460,getting missing table error when trying to upgrade cloudbeaver enterprise,open,4,2025-10-21T15:26:40Z,2025-10-22T14:25:40Z,,bminahan73,"PRO,wait for response"
+dbeaver/dbeaver,3536965000,39458,Access to Older version to match co-workers.  In need of DB22.0.3 version to download,closed,1,2025-10-21T15:01:55Z,2025-10-21T15:21:10Z,2025-10-21T15:21:10Z,els-shedroffa,wait for review
+dbeaver/dbeaver,3536653485,39457,Execute Remote Call windows - DBeaver Team Edition Desktop Client,closed,4,2025-10-21T13:46:00Z,2025-10-23T15:49:17Z,2025-10-23T15:49:17Z,feldtie,"PRO,AS"
+dbeaver/dbeaver,3536229332,39455,Why does DDLs in Postgresql need explicit commit when auto-commit is disabled?,closed,5,2025-10-21T12:02:23Z,2025-10-23T13:58:55Z,2025-10-23T13:58:55Z,samuele555,"x:postgresql,wait for review"
+dbeaver/dbeaver,3536216993,39454,[PostgreSQL] Incorect executable is used for restore task from plain text,open,0,2025-10-21T11:58:59Z,2025-10-21T11:59:00Z,,Matvey16,"x:postgresql,xf:tasks,xp:normal,xf:native clients"
+dbeaver/dbeaver,3536153021,39453,Date filter dialog crashes app,open,1,2025-10-21T11:39:58Z,2025-10-21T15:11:32Z,,JosepAlacid,wait for response
+dbeaver/dbeaver,3535795488,39452,Install plugins,closed,5,2025-10-21T09:46:15Z,2025-10-22T01:24:05Z,2025-10-22T01:23:55Z,sayapusik-netizen,"xf:installation,website"
+dbeaver/dbeaver,3535048463,39450,Questions about AI capabilities or features.,open,4,2025-10-21T06:10:32Z,2025-10-29T12:36:19Z,,zfwmlgz,"xf:ai,investigation"
+dbeaver/dbeaver,3532614091,39447,[CUBRID] Fix SHARD-related issues,open,0,2025-10-20T14:11:54Z,2025-10-20T15:38:37Z,,longhaseng52,"wait for review,external,x:cubrid"
+dbeaver/dbeaver,3531393935,39445,Unique key: Table metadata not found. Data edit is not possible when there is a comment in the query,closed,5,2025-10-20T07:39:39Z,2025-10-24T09:10:06Z,2025-10-24T09:10:06Z,brossaip,"x:mysql,wait for response"
+dbeaver/dbeaver,3531316452,39444,Redundant Space between  CREATE PROCEDURE,open,1,2025-10-20T07:09:22Z,2025-10-29T12:35:31Z,,siracdemir,"xp:minor,x:mssql,xf:metadata"
+dbeaver/dbeaver,3531224390,39443,GIT update broken after latest update,closed,5,2025-10-20T06:31:09Z,2025-10-21T14:23:48Z,2025-10-21T14:23:35Z,LippoHuhtala,"xf:installation,website"
+dbeaver/dbeaver,3530271852,39442,Support Github enterprise accounts in AI assistant (Github Copilot),open,1,2025-10-19T17:28:27Z,2025-10-24T13:03:40Z,,mmarani-git,"PRO,xf:ai"
+dbeaver/dbeaver,3529572273,39440,Impossible to dump / restore database,open,2,2025-10-19T06:36:56Z,2025-10-23T14:30:34Z,,milan-007,"x:maria,wait for response"
+dbeaver/dbeaver,3529450803,39439,Data too long for column 'dept_name',open,3,2025-10-19T03:00:40Z,2025-10-20T23:51:51Z,,wenzhuo4657,wait for response
+dbeaver/dbeaver,3527009497,39438,AI completion in custom base url not working,closed,1,2025-10-17T17:51:17Z,2025-10-20T10:08:03Z,2025-10-20T10:08:03Z,danmaxis,wait for review
+dbeaver/dbeaver,3525965086,39435,DBeaver CE issues with AWS Redshift external DB tables,open,4,2025-10-17T12:26:47Z,2025-10-27T15:29:09Z,,yasvanthav,"x:redshift,wait for response"
+dbeaver/dbeaver,3525659344,39433,[Hive 4]Impossible to add index via UI,open,0,2025-10-17T11:08:23Z,2025-10-17T11:08:23Z,,MashaKorax,"x:hive,xf:metadata"
+dbeaver/dbeaver,3525370756,39432,"In Hive 4, make it possible to edit binary values through the value panel",open,0,2025-10-17T10:06:28Z,2025-10-17T10:18:01Z,,MashaKorax,"good first issue,x:hive"
+dbeaver/dbeaver,3524975684,39430,postgres: recover from connection timeout,open,3,2025-10-17T08:07:29Z,2025-10-23T18:16:47Z,,fjf2002,"x:postgresql,wait for response"
+dbeaver/dbeaver,3524251958,39428,The tab close button does not work,closed,1,2025-10-17T03:05:57Z,2025-10-17T03:09:13Z,2025-10-17T03:09:13Z,hjslovehr,wait for review
+dbeaver/dbeaver,3523322110,39426,The authentication prompt asks for password instead of AWS access and secret keys,open,6,2025-10-16T19:56:12Z,2025-10-22T16:30:53Z,,antonioaddis,"x:postgresql,PRO,wait for response,xf:connection"
+dbeaver/dbeaver,3521794176,39423,error on change column type in import csv data,open,18,2025-10-16T13:00:05Z,2025-10-22T05:10:12Z,,detkliff,"x:postgresql,xf:datatransfer,xp:normal"
+dbeaver/dbeaver,3521776186,39422,Diagram Editor: Save as PNG or ERD loses information,open,3,2025-10-16T12:55:15Z,2025-10-20T10:11:06Z,,realulim,"xf:erd,xp:normal"
+dbeaver/dbeaver,3521131494,39420,Netezza insert more than maxint rows cause out of range,open,3,2025-10-16T09:48:09Z,2025-10-21T12:21:58Z,,krzysztof-dusko-velo,"wait for response,x:netezza"
+dbeaver/dbeaver,3520920989,39419,Cannot connect via ssh tunnel with flatpak version,closed,1,2025-10-16T08:47:51Z,2025-10-16T08:54:17Z,2025-10-16T08:54:17Z,rmplbv,wait for review
+dbeaver/dbeaver,3520593044,39417,"Sybase ASE navigator shows only one database, folders not visible",open,0,2025-10-16T07:04:09Z,2025-10-16T07:04:09Z,,DariaMarkaryan,"x:sybase,xf:metadata"
+dbeaver/dbeaver,3518076511,39410,geometry values with M dimesion not displaying in viewer in new version,open,3,2025-10-15T13:32:48Z,2025-10-27T14:03:21Z,,bponzio20,"x:postgresql,xf:data,xf:gis,xp:normal"
+dbeaver/dbeaver,3517616356,39408,Restore color in the toolbar icons,open,2,2025-10-15T11:34:42Z,2025-10-18T13:34:35Z,,terax6669,xf:ui
+dbeaver/dbeaver,3517543423,39407,"mssql  EXEC  does not show result  , after runnig  this script.",open,2,2025-10-15T11:11:36Z,2025-10-24T21:06:18Z,,blackholeearth,"x:mssql,wait for response,xf:sql execution"
+dbeaver/dbeaver,3517494089,39406,Warning in console after deleting inactive project: “Some data source listeners are still registered”,open,0,2025-10-15T10:56:12Z,2025-10-20T13:24:07Z,,vkirst,
+dbeaver/dbeaver,3517378592,39405,"Not starting, crashes after splash screen",closed,10,2025-10-15T10:25:19Z,2025-10-23T06:50:15Z,2025-10-23T06:50:14Z,IlijaSoskicPowERP,"xo:windows,environment"
+dbeaver/dbeaver,3517005186,39402,Too long startup,open,8,2025-10-15T08:44:43Z,2025-10-22T14:18:57Z,,Iowerth,wait for response
+dbeaver/dbeaver,3513785701,39394,Is there a version available for Windows 7?,closed,2,2025-10-14T12:48:18Z,2025-10-19T11:48:15Z,2025-10-19T08:25:28Z,NingYuuuX,"xo:windows,xf:installation"
+dbeaver/dbeaver,3510976489,39390,fetchSize always resets to 1,closed,1,2025-10-13T18:00:58Z,2025-10-14T09:18:37Z,2025-10-14T09:18:37Z,mcsilver,duplicate
+dbeaver/dbeaver,3510262320,39387,CSV Export breaks when a column contains XML data (Firebird),open,1,2025-10-13T14:18:52Z,2025-10-15T14:12:11Z,,JeanFetzerDev,"xf:datatransfer,xp:normal"
+dbeaver/dbeaver,3510038821,39386,[Sybase jTDS] error when trying to connect to sybase,open,0,2025-10-13T13:16:16Z,2025-10-13T13:16:38Z,,uslss,"x:sybase,xf:connection"
+dbeaver/dbeaver,3506655130,39381,macos.  The text editor cannot select multiple lines.,open,15,2025-10-12T04:20:55Z,2025-10-29T08:02:12Z,,wq383251641-creator,"xo:macos,xo:eclipse,wait for review,third party issue,xf:sql editor"
+dbeaver/dbeaver,3505054141,39379,Icon in taskbar disappears when connect laptop with monitor,open,0,2025-10-11T02:44:10Z,2025-10-13T16:36:43Z,,chariothy,"xo:windows,wait for review"
+dbeaver/dbeaver,3504093819,39378,"Exporting `select distinct` query results using multiple queries introduces duplicate rows, inconsistent results",open,3,2025-10-10T18:35:01Z,2025-10-29T12:44:56Z,,polkhovsky-norc,"x:vertica,xf:data,xf:datatransfer"
+dbeaver/dbeaver,3502772679,39375,"maximum size of results ""0""",closed,2,2025-10-10T12:51:24Z,2025-10-10T14:18:30Z,2025-10-10T14:18:30Z,alahaye-max,duplicate
+dbeaver/dbeaver,3502437726,39373,'ctrl + enter' in replace field doesn't work any more,open,1,2025-10-10T11:15:04Z,2025-10-20T13:33:03Z,,brauwers1981,"xp:major,xf:search,xf:sql editor"
+dbeaver/dbeaver,3502297574,39372,Sybase JTDS driver cannot load schema list,closed,1,2025-10-10T10:33:38Z,2025-10-15T08:28:12Z,2025-10-13T13:21:13Z,uslss,"xp:major,x:sybase,xf:connection,multi,xrn:internal"
+dbeaver/dbeaver,3501806368,39370,"Auto-completion not triggering automatically in SQL Editor (Oracle, DBeaver 25.2.2 Community)",open,3,2025-10-10T07:58:03Z,2025-10-16T14:46:02Z,,mystixsior,"wait for response,xf:sql editor,xf:sql autocompletion"
+dbeaver/dbeaver,3501494455,39369,"Issue with AI Integration Settings: Auto-added ""/responses"" Suffix Causes Local Model Failure",open,7,2025-10-10T06:07:17Z,2025-10-20T10:08:19Z,,HAHEHEDaH,xf:ai
+dbeaver/dbeaver,3500686873,39368,SQL Editor Tabs Auto-Save Without Option to Disable,open,2,2025-10-09T21:30:59Z,2025-10-16T15:03:59Z,,Bolwahnn,"wait for review,xf:sql editor"
+dbeaver/dbeaver,3500230086,39367,Option to duplicate/clone a tab,open,1,2025-10-09T18:32:11Z,2025-10-13T16:44:10Z,,tojiamathewwork,"xf:ui,wait for votes"
+dbeaver/dbeaver,3496424401,39361,"Databricks Driver 2.7.4 Error: Cannot invoke ""org.jkiss.dbeaver.ext.generic.model.GenericCatalog.getName()"" because ""catalog"" is null",closed,4,2025-10-08T18:15:47Z,2025-10-15T13:59:47Z,2025-10-13T13:21:12Z,rodneyc8063,"x:databricks,multi"
+dbeaver/dbeaver,3495417853,39358,Add toggle to apply WITH (NOLOCK) in auto-generated SELECT queries (table browser),open,1,2025-10-08T13:18:05Z,2025-10-16T22:46:10Z,,maverick-devil,"x:mssql,xf:data"
+dbeaver/dbeaver,3492108531,39350,Result of SELECT only returns one row,closed,3,2025-10-07T16:07:14Z,2025-10-10T17:15:09Z,2025-10-08T13:03:25Z,sauribea,duplicate
+dbeaver/dbeaver,3491444678,39346,Dbeaver Community 25.2.2 is not working on Mac OS 15.7.1 (24G231),open,4,2025-10-07T13:11:47Z,2025-10-21T13:53:47Z,,sridores,"xo:macos,wait for response"
+dbeaver/dbeaver,3491125138,39345,Can't resolve array data type Array(UInt8),closed,3,2025-10-07T11:38:33Z,2025-10-09T13:54:01Z,2025-10-09T13:54:00Z,LAGNIZE,"duplicate,xf:data,x:clickhouse"
+dbeaver/dbeaver,3490132500,39344,Cannot see the query time in milliseconds,open,2,2025-10-07T06:27:52Z,2025-10-20T09:23:25Z,,glem-fumeno,"xp:normal,xf:query manager"
+dbeaver/dbeaver,3489349026,39343,"SQL editor context initialization at the time of its creation and/or connection establishment causes ""Fully qualified object names"" despite prerequisites met for ""Short object names""",open,2,2025-10-06T22:36:25Z,2025-10-09T14:53:25Z,,synowiec,"x:mssql,wait for review,xf:sql autocompletion"
+dbeaver/dbeaver,3489286242,39342,"""Can't open 'NO_AT_BRIDGE=1': file doesn't exist"" at startup",closed,11,2025-10-06T22:05:16Z,2025-10-20T01:28:58Z,2025-10-14T11:42:25Z,cameron-tabula,"xo:linux,xf:snap,xp:critical"
+dbeaver/dbeaver,3489201188,39341,ResultSet Fetch Size Defaulting To 1,closed,12,2025-10-06T21:35:21Z,2025-10-08T13:56:36Z,2025-10-08T13:55:52Z,teschste-reyrey,"xp:critical,xf:data editor"
+dbeaver/dbeaver,3488833535,39340,Semantic analysis of Oracle `sysdate` works in SQL Console mode but not in a SQL Script,open,1,2025-10-06T19:50:55Z,2025-10-09T14:41:41Z,,jachincollins,"x:oracle,xf:sql autocompletion"
+dbeaver/dbeaver,3488407869,39339,"""SQL keyword color"" setting doesn't affect SQL editor keyword color",closed,1,2025-10-06T17:53:50Z,2025-10-15T14:08:19Z,2025-10-06T17:55:00Z,laundmo,duplicate
+dbeaver/dbeaver,3488398124,39338,App not responding and crashing.,open,4,2025-10-06T17:50:47Z,2025-10-11T15:07:41Z,,tojiamathewwork1,"wait for response,xf:ui"
+dbeaver/dbeaver,3488339698,39337,SQL Keyword Color not being applied,open,0,2025-10-06T17:32:56Z,2025-10-09T14:06:11Z,,laundmo,"xo:linux,wait for review"
+dbeaver/dbeaver,3487737545,39335,Feature request: Autosave the last layout and restore it when re-opening it next time.,open,1,2025-10-06T15:03:23Z,2025-10-16T14:53:53Z,,tojiamathewwork1,wait for response
+dbeaver/dbeaver,3486804869,39332,"""An error has occured. See the log file null"" when starting Dbeaver from share",open,1,2025-10-06T11:22:29Z,2025-10-16T14:51:06Z,,PetryBosch,"xo:windows,wait for response,environment"
+dbeaver/dbeaver,3485718322,39329,Copy and paste from result doesn't work,closed,2,2025-10-06T05:17:40Z,2025-10-10T13:14:24Z,2025-10-10T13:14:17Z,detkliff,xf:ui
+dbeaver/dbeaver,3485058886,39328,when open a table dbeaver crash,closed,6,2025-10-05T18:43:41Z,2025-10-29T13:25:12Z,2025-10-29T13:24:59Z,taich001,"can't reproduce,xo:linux"
+dbeaver/dbeaver,3480985717,39326,Using Alt-Shortcut in code jumps to datetime value edit,open,1,2025-10-03T12:49:15Z,2025-10-15T14:07:03Z,,mezlondr,"xo:windows,xf:sql editor"
+dbeaver/dbeaver,3480352688,39325,Fix size pane experience in multiple-window workflow,open,0,2025-10-03T08:54:48Z,2025-10-09T14:35:21Z,,kAlvaro,"wait for review,xf:ui"
+dbeaver/dbeaver,3480039346,39324,Open declaration - Synonym,open,4,2025-10-03T07:05:04Z,2025-10-28T13:56:48Z,,Spiderren,"x:oracle,can't reproduce,wait for response,xf:metadata"
+dbeaver/dbeaver,3477915380,39322,SQLite: Foreign keys not recognized as references if created with shorthand syntax,closed,2,2025-10-02T15:14:11Z,2025-10-24T17:07:36Z,2025-10-24T17:07:36Z,rogual,"xp:major,x:sqlite,xf:metadata"
+dbeaver/dbeaver,3477473640,39321,Datatype shown in autocompletion list of columns is not correct,open,1,2025-10-02T13:10:03Z,2025-10-08T09:46:52Z,,RamonCar66,"x:oracle,xf:metadata,xf:sql autocompletion"
+dbeaver/dbeaver,3473787692,39316,Boolean inline editor is in read-only mode in tables without pk,closed,0,2025-10-01T14:15:11Z,2025-10-07T13:13:17Z,2025-10-07T13:13:17Z,kseniaguzeeva,xf:data editor
+dbeaver/dbeaver,3473059431,39315,Unexpected behavior when closing a maximized panel,closed,1,2025-10-01T11:02:19Z,2025-10-06T11:10:53Z,2025-10-06T11:10:52Z,MashaKorax,"xf:ui,xp:normal"
+dbeaver/dbeaver,3472245607,39309,Alternating row colors in Properties view,open,4,2025-10-01T06:41:26Z,2025-10-29T10:48:57Z,,jzu-guru,"wait for review,xf:metadata,xf:ui"
+dbeaver/dbeaver,3471836346,39308,Compatibility of DBeaver version 7.0.3 with Windows 11,closed,2,2025-10-01T03:11:32Z,2025-10-06T15:33:25Z,2025-10-06T15:33:25Z,tkdgur4574,"xo:windows,wait for response,xf:update"

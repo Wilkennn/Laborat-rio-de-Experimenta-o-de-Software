@@ -1,0 +1,30 @@
+repo_full_name,id,number,title,state,comments,created_at,updated_at,closed_at,user_login,labels
+iluwatar/java-design-patterns,3543733007,3385,outdated model name for reviewing pull request,open,3,2025-10-23T08:45:05Z,2025-10-24T15:29:57Z,,quantambites,
+iluwatar/java-design-patterns,3538556829,3381,Add link to Urdu Language,open,0,2025-10-22T00:01:33Z,2025-10-22T00:02:34Z,,hasanalikhattak,
+iluwatar/java-design-patterns,3526936707,3372,Presubmit.ai workflow failing on PRs due to missing API key and invalid model,open,1,2025-10-17T17:24:10Z,2025-10-17T18:58:15Z,,oldregime,
+iluwatar/java-design-patterns,3526507405,3370,Real world example of factory method,open,1,2025-10-17T15:07:03Z,2025-10-18T06:00:32Z,,itsomg134,
+iluwatar/java-design-patterns,3526504534,3369,enhance the code flexible and machine biggest file,open,2,2025-10-17T15:06:04Z,2025-10-19T13:03:30Z,,itsomg134,
+iluwatar/java-design-patterns,3526496373,3368,Hartsel heller bug,open,1,2025-10-17T15:03:12Z,2025-10-17T18:58:31Z,,itsomg134,
+iluwatar/java-design-patterns,3526493106,3367,transrectal building tool identified,open,0,2025-10-17T15:02:05Z,2025-10-17T15:02:05Z,,itsomg134,
+iluwatar/java-design-patterns,3526474116,3366,demo file Report,open,0,2025-10-17T14:55:30Z,2025-10-17T14:55:30Z,,itsomg134,
+iluwatar/java-design-patterns,3526469288,3365,Suggest improvement in factory method,open,1,2025-10-17T14:53:49Z,2025-10-17T18:57:30Z,,itsomg134,
+iluwatar/java-design-patterns,3514689460,3361,"Suggestion to improve flow in ""Intent""",open,3,2025-10-14T16:34:37Z,2025-10-17T11:22:02Z,,itsomg134,
+iluwatar/java-design-patterns,3495852095,3337,Issue: Presubmit Check Failure,open,3,2025-10-08T15:09:14Z,2025-10-14T02:49:39Z,,Amitverma0509,
+iluwatar/java-design-patterns,3484718268,3331,Fix inconsistent version / properties in [PatternName] module’s pom.xml,closed,2,2025-10-05T11:33:21Z,2025-10-05T11:50:39Z,2025-10-05T11:50:39Z,Harushii16,
+iluwatar/java-design-patterns,3211040392,3301,Refactor to Factory Enum Pattern for Cleaner Object Instantiation,open,4,2025-07-08T05:04:03Z,2025-10-15T03:17:10Z,,huunghia98er,
+iluwatar/java-design-patterns,3093620678,3287,"Suggestion to improve flow in ""Intent"" and ""Real-World Example"" sections of Strategy Pattern README",open,2,2025-05-27T11:38:11Z,2025-10-10T02:03:21Z,,ArushiTariyal,
+iluwatar/java-design-patterns,3089402762,3286,Java 设计模式,closed,0,2025-05-25T16:06:01Z,2025-05-25T16:06:10Z,2025-05-25T16:06:10Z,supermaverickws,
+iluwatar/java-design-patterns,2993634348,3250,Outbox pattern,open,2,2025-04-14T16:57:08Z,2025-08-10T02:13:17Z,,iluwatar,Stale
+iluwatar/java-design-patterns,2958761577,3233,Implement Backpressure pattern,closed,1,2025-03-30T09:18:59Z,2025-04-12T05:50:24Z,2025-04-12T05:50:24Z,iluwatar,"epic: pattern,type: feature"
+iluwatar/java-design-patterns,2958761069,3232,Implement Actor Model pattern,open,5,2025-03-30T09:17:53Z,2025-10-11T01:59:54Z,,iluwatar,"epic: pattern,type: feature"
+iluwatar/java-design-patterns,2958760504,3231,Implement Onion Architecture pattern,open,6,2025-03-30T09:16:35Z,2025-07-21T02:13:01Z,,iluwatar,"epic: pattern,type: feature,Stale"
+iluwatar/java-design-patterns,2958759878,3230,Implement Clean Architecture design pattern,closed,1,2025-03-30T09:15:15Z,2025-04-05T06:42:06Z,2025-04-05T06:42:06Z,iluwatar,"epic: pattern,type: feature"
+iluwatar/java-design-patterns,2958759355,3229,Implement Microservices Load Shedding pattern,open,3,2025-03-30T09:14:07Z,2025-10-08T02:01:58Z,,iluwatar,"epic: pattern,type: feature"
+iluwatar/java-design-patterns,2958758696,3228,Implement Microservices Bulkhead pattern,open,2,2025-03-30T09:12:37Z,2025-10-02T07:15:42Z,,iluwatar,"info: help wanted,epic: pattern,type: feature"
+iluwatar/java-design-patterns,2958758018,3227,Implement Fork/Join pattern,open,4,2025-03-30T09:11:14Z,2025-10-24T13:57:11Z,,iluwatar,"epic: pattern,type: feature"
+iluwatar/java-design-patterns,2958756812,3226,Implement Thread-Pool Executor pattern,closed,1,2025-03-30T09:08:46Z,2025-05-15T18:53:39Z,2025-05-15T18:53:39Z,iluwatar,"epic: pattern,type: feature"
+iluwatar/java-design-patterns,2958755611,3225,Implement Thread-Specific Storage Pattern,open,6,2025-03-30T09:06:07Z,2025-10-22T15:01:47Z,,iluwatar,"info: help wanted,epic: pattern,type: feature"
+iluwatar/java-design-patterns,2907515385,3202,Typo fix and extending reflection handling to remaining Singleton implementations,closed,0,2025-03-10T14:43:19Z,2025-03-18T07:42:39Z,2025-03-18T07:42:39Z,smile-ab,
+iluwatar/java-design-patterns,2906115783,3200,LegacyOrder -> ModernOrder,closed,2,2025-03-10T05:21:04Z,2025-03-18T08:08:29Z,2025-03-18T08:08:29Z,ghobadian,"type: bug,info: help wanted,epic: pattern,info: good first issue"
+iluwatar/java-design-patterns,2878176295,3197,Missing Constructor In Adapter Pattern,closed,1,2025-02-25T12:03:54Z,2025-02-28T14:16:48Z,2025-02-28T14:16:47Z,james5635,
+iluwatar/java-design-patterns,2875128590,3193,Fix: Duplicate content written in flux pattern,closed,0,2025-02-24T14:21:16Z,2025-02-28T06:44:18Z,2025-02-28T06:44:18Z,hyehwanchoi,

@@ -1,0 +1,10 @@
+repo_full_name,id,tag_name,name,draft,prerelease,created_at,published_at
+krahets/hello-algo,189308252,1.2.0,Hello 算法 1.2.0,False,False,2024-12-06T01:03:43Z,2024-12-06T01:32:09Z
+krahets/hello-algo,151077382,1.1.0,Hello 算法 1.1.0,False,False,2024-04-14T12:46:20Z,2024-04-14T17:49:16Z
+krahets/hello-algo,136954720,1.0.0,Hello 算法 1.0.0,False,False,2024-01-13T19:16:20Z,2024-01-13T19:34:13Z
+krahets/hello-algo,127083545,1.0.0b6,Hello 算法 1.0.0b6,False,False,2023-10-29T12:22:07Z,2023-10-29T13:34:28Z
+krahets/hello-algo,120554638,1.0.0b5,Hello 算法 1.0.0b5,False,False,2023-09-10T15:11:50Z,2023-09-10T15:24:43Z
+krahets/hello-algo,113604622,1.0.0b4,Hello 算法 1.0.0b4,False,False,2023-07-26T03:56:32Z,2023-07-26T04:20:44Z
+krahets/hello-algo,102491483,1.0.0b3,Hello 算法 1.0.0b3,False,False,2023-05-10T13:00:04Z,2023-05-10T13:03:41Z
+krahets/hello-algo,97368303,1.0.0b2,Hello 算法 1.0.0b2,False,False,2023-03-29T18:47:51Z,2023-03-29T19:40:28Z
+krahets/hello-algo,94455023,1.0.0b1,Hello 算法 1.0.0b1,False,False,2023-03-03T13:54:04Z,2023-03-03T18:56:18Z

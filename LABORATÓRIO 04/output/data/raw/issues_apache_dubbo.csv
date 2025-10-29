@@ -1,0 +1,65 @@
+repo_full_name,id,number,title,state,comments,created_at,updated_at,closed_at,user_login,labels
+apache/dubbo,3559715547,15742,[Bug] Found some resources seem not handled properly,open,0,2025-10-28T04:19:19Z,2025-10-28T04:19:19Z,,AROP-REPLICATION,"type/need-triage,component/need-triage"
+apache/dubbo,3542860758,15737,"[Bug] The default implementations of Dubbo ObjectOutput.writeEvent and ObjectInput.readEvent are inconsistent, resulting in abnormal functionality of some serialization components.",closed,2,2025-10-23T01:53:57Z,2025-10-27T12:19:51Z,2025-10-27T12:19:51Z,huisman6,help wanted
+apache/dubbo,3534959581,15735,[Feature] The configuration information logged by DefaultApplicationDeployer needs to be sanitized (masked),open,1,2025-10-21T05:36:44Z,2025-10-24T06:28:48Z,,the3rd,help wanted
+apache/dubbo,3534531833,15733,[Bug] BatchExecutorQueue performance risk,closed,0,2025-10-21T01:53:59Z,2025-10-21T02:01:33Z,2025-10-21T02:01:33Z,fxli4,"type/need-triage,component/need-triage"
+apache/dubbo,3534530188,15732,[Bug] BatchExecutorQueue performance risk,closed,1,2025-10-21T01:52:57Z,2025-10-22T02:38:21Z,2025-10-22T02:38:21Z,fxli4,"help wanted,type/proposal,type/enhancement"
+apache/dubbo,3524795925,15725,[Bug]  Consumer keep trying to reconnect when Provider is killed,closed,3,2025-10-17T07:03:44Z,2025-10-21T06:50:43Z,2025-10-21T06:50:43Z,jkoChen,help wanted
+apache/dubbo,3524206780,15724,"[Bug] dubbo-admin控制面板创建动态配置,配合nacos注册中心,服务降级不生效",closed,1,2025-10-17T02:51:15Z,2025-10-17T11:42:21Z,2025-10-17T11:42:21Z,ChenYongJie666,"type/need-triage,component/need-triage"
+apache/dubbo,3505481428,15719,[The Best Experience] the guide of customizing Dubbo 3.3.x to compatible with curator 4.x,closed,2,2025-10-11T09:05:10Z,2025-10-13T02:38:37Z,2025-10-12T02:21:27Z,slankka,"type/need-triage,component/need-triage"
+apache/dubbo,3499216602,15718,[Bug] dubbo-rest-openapiin Dubbo 3.3.5: PageResponseand AccessLogResClass Structures Missing from Generated JSON and @SchemaAnnotations Ineffective,open,2,2025-10-09T13:35:13Z,2025-10-22T06:38:42Z,,jasonguo922,type/bug
+apache/dubbo,3467979152,15711,[Bug] BearerTokenAuthentication is not in the allowlist,closed,1,2025-09-30T07:34:43Z,2025-09-30T09:40:36Z,2025-09-30T09:40:36Z,JogJo,type/discussion
+apache/dubbo,3461444939,15710,[Bug] No such extension org.apache.dubbo.rpc.Protocol by name tri.default,open,5,2025-09-28T09:24:27Z,2025-10-23T11:45:29Z,,jockercheng91,status/waiting-for-feedback
+apache/dubbo,3437407307,15698,Distinguish between timeout and task rejection in DefaultFuture,open,3,2025-09-20T18:45:19Z,2025-10-22T06:51:33Z,,qxggg,type/enhancement
+apache/dubbo,3421979494,15694,引入 dubbo-bom 后缺失日志依赖问题,closed,1,2025-09-16T12:02:31Z,2025-09-17T07:08:44Z,2025-09-17T07:08:44Z,houkunlin,
+apache/dubbo,3396421449,15678,[Bug] RpcException message should not contain the accessKey and secretKey from MSE Nacos,open,5,2025-09-09T03:26:58Z,2025-10-22T06:39:05Z,,vergilyn,"type/bug,help wanted"
+apache/dubbo,3392945770,15677,[Bug] `DefaultTPSLimiter` doesn't acutally support per-method level TPS limit.,closed,1,2025-09-08T07:20:09Z,2025-09-29T03:34:35Z,2025-09-29T03:34:35Z,lingyufei,"help wanted,type/enhancement"
+apache/dubbo,3391301211,15675,[Bug] The AnnotatedBeanDefinitionRegistryUtils.isPresentBean method breaks Dubbo's class isolation mechanism.,closed,5,2025-09-07T07:03:40Z,2025-09-08T03:58:24Z,2025-09-08T02:52:15Z,xiaolongzuo,"type/need-triage,component/need-triage"
+apache/dubbo,3391026230,15674,[Bug] ClassNotFoundException was thrown when compile with  dubbo-native and dubbo-maven-plugin ,closed,19,2025-09-07T01:07:22Z,2025-09-09T05:03:44Z,2025-09-09T04:14:16Z,noear,"status/waiting-for-feedback,type/discussion"
+apache/dubbo,3386015842,15671,[Bug] MemoryLeak Issue In DefaultFuture,closed,3,2025-09-05T01:51:07Z,2025-09-18T02:22:19Z,2025-09-18T02:22:19Z,vio-lin,help wanted
+apache/dubbo,3381849892,15670,"[Bug] there are short, float type deserialization issues at hessian lite of dubbo3",closed,8,2025-09-04T01:59:06Z,2025-09-12T01:44:02Z,2025-09-12T01:43:28Z,jockercheng91,"type/bug,help wanted"
+apache/dubbo,3378540258,15668,the Configuration `Cluster` and `retries` on `<dubbo:service/>` doesn't work,open,2,2025-09-03T06:49:16Z,2025-10-22T06:39:12Z,,lingyufei,help wanted
+apache/dubbo,3374354315,15665,"[Bug] In multi-threaded parallel execution, a large number of read only operations waste a lot of unnecessary time because the combination of ""read and write"" operations requires ""serialization"".",closed,0,2025-09-02T04:27:47Z,2025-09-29T03:33:48Z,2025-09-29T03:33:48Z,frozenNoob,"help wanted,type/enhancement"
+apache/dubbo,3374176011,15663,[Bug] moduleModel is null after native building,open,5,2025-09-02T02:34:15Z,2025-10-23T11:42:48Z,,imgoby,"type/bug,help wanted"
+apache/dubbo,3371858562,15660,[Bug] MutinyClientCallsTest hangs due to null downstream,closed,2,2025-09-01T08:59:17Z,2025-09-29T03:38:38Z,2025-09-29T03:38:38Z,zrlw,"type/bug,help wanted"
+apache/dubbo,3371777973,15659,[Bug]  Can't create adaptive extension interface org.apache.dubbo.metrics.report.MetricsReporterFactor,closed,2,2025-09-01T08:35:41Z,2025-09-29T03:40:34Z,2025-09-29T03:40:34Z,wangjiancheng180,type/discussion
+apache/dubbo,3369466508,15658,[Feature] StringUtils.isNumeric: add optional +/- sign support (backward compatible),closed,0,2025-08-30T20:13:55Z,2025-09-29T03:41:18Z,2025-09-29T03:41:18Z,6mmLIU,type/proposal
+apache/dubbo,3344515096,15653,[Bug] dubbo-samples native-sample-test build failed due to apache-maven-3.9.6 is removed from dlcdn.apache.org,closed,4,2025-08-22T07:44:35Z,2025-08-22T10:45:01Z,2025-08-22T10:45:01Z,MrSibe,"type/bug,help wanted"
+apache/dubbo,3344208323,15652,[Feature]  use  Apache Fory(fury) to serialize objects,closed,3,2025-08-22T05:34:31Z,2025-08-22T13:11:53Z,2025-08-22T13:11:53Z,songxiaosheng,type/proposal
+apache/dubbo,3333411656,15641,[Bug] org.apache.dubbo.remoting.http12.exception.HttpStatusException: Invoker for gRPC not found,open,8,2025-08-19T08:21:26Z,2025-10-22T06:39:27Z,,dexchong,help wanted
+apache/dubbo,3329988572,15635,[Feature] Add metadata-report and config-center dependencies for `dubbo-demo-api-consumer` and `dubbo-demo-api-provider` as default,closed,3,2025-08-18T09:45:03Z,2025-08-20T03:50:07Z,2025-08-20T03:50:07Z,lingyufei,"help wanted,type/enhancement"
+apache/dubbo,3327296457,15634,[Bug] Dubbo Client-Side Timeout Error (Code 6-2) on Connection Attempt,closed,3,2025-08-16T13:47:59Z,2025-08-20T03:50:56Z,2025-08-20T03:50:56Z,dingzebin,type/discussion
+apache/dubbo,3317904935,15632,[Bug] cannot Remove duplicated invokers in registry notification,closed,4,2025-08-13T10:42:38Z,2025-09-29T07:00:32Z,2025-09-29T07:00:32Z,huangqy17,"type/bug,help wanted"
+apache/dubbo,3308309658,15630,[Bug] Basic authentication does not work when when sending requests using dubbo protocol,open,1,2025-08-11T03:11:48Z,2025-10-22T06:39:34Z,,mitpjones,type/discussion
+apache/dubbo,3304161721,15629,[Bug] dubbo-maven-pluggin cannot successfully compile google.protobuf.Empty into 'void' keyword,open,2,2025-08-08T13:57:04Z,2025-10-22T06:39:41Z,,LeonMinkus,"type/bug,help wanted"
+apache/dubbo,3300395692,15626,[Feature] support cangjie,closed,1,2025-08-07T12:52:50Z,2025-08-08T09:58:20Z,2025-08-08T09:58:19Z,windhc,"type/need-triage,component/need-triage"
+apache/dubbo,3299237073,15624,"[Bug] Use Nacos as registry center, every diffrent registry.group eatablished it's own NamingService connection, that causes too many connections to be established",open,4,2025-08-07T06:53:12Z,2025-08-12T08:12:49Z,,goto456,"help wanted,type/enhancement"
+apache/dubbo,3299079360,15623,[Feature] Enable the ConfigCenter And MetadataCenter to support option of `check=false`,open,0,2025-08-07T05:48:31Z,2025-08-08T07:02:57Z,,fantiq,"help wanted,type/enhancement,component/sdk"
+apache/dubbo,3298547487,15622,[Bug],closed,0,2025-08-07T01:18:14Z,2025-08-07T01:29:54Z,2025-08-07T01:29:54Z,jianyun,"type/need-triage,component/need-triage"
+apache/dubbo,3298547120,15621,[Bug],closed,1,2025-08-07T01:18:00Z,2025-08-07T01:30:14Z,2025-08-07T01:30:14Z,jianyun,"type/need-triage,component/need-triage"
+apache/dubbo,3298547087,15620,[Bug],closed,1,2025-08-07T01:17:58Z,2025-08-07T01:30:26Z,2025-08-07T01:30:26Z,jianyun,"type/need-triage,component/need-triage"
+apache/dubbo,3298547025,15619,[Bug],closed,1,2025-08-07T01:17:55Z,2025-08-07T01:30:36Z,2025-08-07T01:30:36Z,jianyun,"type/need-triage,component/need-triage"
+apache/dubbo,3298546699,15618,[Bug],closed,1,2025-08-07T01:17:52Z,2025-08-07T01:30:46Z,2025-08-07T01:30:45Z,jianyun,"type/need-triage,component/need-triage"
+apache/dubbo,3298546329,15617,[Bug] java.lang.NoSuchMethodError: org.springframework.core.env.CompositePropertySource.getPropertySources()Ljava/util/Collection;,closed,3,2025-08-07T01:17:49Z,2025-09-29T07:04:45Z,2025-09-29T07:04:45Z,jianyun,status/waiting-for-feedback
+apache/dubbo,3288292865,15609,[Bug] RpcContent has lost。,closed,3,2025-08-04T07:05:56Z,2025-08-05T02:10:03Z,2025-08-05T01:33:30Z,LeoDominicXu,type/discussion
+apache/dubbo,3288179216,15608,[Feature] Dubbo MCP Authentication Support,open,0,2025-08-04T06:18:28Z,2025-08-04T06:19:13Z,,RainYuY,"type/proposal,component/sdk"
+apache/dubbo,3288175359,15607,[Feature] Dubbo MCP Support for Streamable Protocol,closed,4,2025-08-04T06:16:47Z,2025-10-23T05:53:37Z,2025-10-23T05:53:37Z,RainYuY,"type/proposal,type/enhancement"
+apache/dubbo,3279712590,15600,[Feature] Avoid Calling Other Methods in Constructors,open,2,2025-07-31T09:15:16Z,2025-09-01T06:35:06Z,,zrlw,"type/bug,help wanted"
+apache/dubbo,3276781797,15597,[Feature] Implement full zero-copy output for Dubbo Triple protocol,open,1,2025-07-30T12:08:39Z,2025-08-31T12:44:35Z,,heliang666s,"help wanted,type/enhancement"
+apache/dubbo,3265186252,15587,[Bug] java.util.concurrent.ExecutionException: org.apache.dubbo.rpc.StatusRpcException: UNKNOWN,closed,0,2025-07-26T06:15:42Z,2025-07-26T07:03:44Z,2025-07-26T07:03:44Z,KouShenhai,"type/need-triage,component/need-triage"
+apache/dubbo,3256230866,15583,dubbo registration to k8s weight configuration failure,closed,4,2025-07-23T12:38:54Z,2025-07-24T13:55:10Z,2025-07-24T13:55:10Z,tom055,status/waiting-for-feedback
+apache/dubbo,3254582752,15579,[Bug] Request method 'GET' not supported,closed,2,2025-07-23T02:09:21Z,2025-07-23T07:49:30Z,2025-07-23T07:49:30Z,kaiser20106,"type/bug,help wanted"
+apache/dubbo,3247737397,15576,record deserialize error: argument type mismatch,closed,2,2025-07-21T08:46:18Z,2025-07-28T10:36:39Z,2025-07-28T10:36:39Z,zzps,type/bug
+apache/dubbo,3247083127,15575,package org.apache.dubbo.common does not exist,closed,5,2025-07-21T03:47:02Z,2025-09-29T07:05:43Z,2025-09-29T07:05:43Z,judypol,type/discussion
+apache/dubbo,3246973063,15574,[Feature] Dubbo MCP In Multiple Instances  Proposal,open,3,2025-07-21T02:18:23Z,2025-08-04T06:13:57Z,,conghuhu,"type/proposal,component/sdk"
+apache/dubbo,3246305014,15572,[Feature] bugfix and optimize `dubbo-hessian-lite`,open,1,2025-07-20T12:05:35Z,2025-07-22T15:28:43Z,,zrlw,help wanted
+apache/dubbo,3246061433,15567,[Feature] Add AsyncRpcResult test sample in dubbo-samples,open,4,2025-07-20T06:35:28Z,2025-08-08T05:36:30Z,,CAICAIIs,"help wanted,type/proposal,type/enhancement"
+apache/dubbo,3245819796,15565,[Bug] NacosNamingServiceUtilsTest needs to be fixed,closed,1,2025-07-20T01:08:39Z,2025-07-20T01:37:50Z,2025-07-20T01:37:50Z,zrlw,help wanted
+apache/dubbo,3243760719,15560,[Bug] dubbo.service.register=true not effect if local spring.properties not exists dubbo.config-center.highest-priority=false,closed,6,2025-07-18T16:35:16Z,2025-09-29T07:07:52Z,2025-09-29T07:07:51Z,ciampion,help wanted
+apache/dubbo,3241606263,15557,attachment parameter transparency behavior,closed,15,2025-07-18T02:16:58Z,2025-07-27T05:17:46Z,2025-07-24T02:05:40Z,imjyz,"status/waiting-for-feedback,type/discussion"
+apache/dubbo,3234193460,15555,[Feature] JDK25 Support for Dubbo,open,8,2025-07-16T02:00:07Z,2025-10-29T03:17:13Z,,RainYuY,"help wanted,good first issue"
+apache/dubbo,3232901619,15554,[Bug]  Dubbo 3.3.5 fails to start with Nacos 3.x due to removed /v1/ns/operator/switches API,open,2,2025-07-15T16:24:20Z,2025-09-09T12:46:09Z,,LenoMinkus,"status/waiting-for-feedback,help wanted,type/enhancement"
+apache/dubbo,3228495143,15549,[Feature] Guava called a deprecated sun.misc.Unsafe method that jdk24+ might removed it in the future,open,2,2025-07-14T11:53:42Z,2025-07-27T03:46:27Z,,zrlw,"help wanted,type/dependencies"
+apache/dubbo,3224786449,15539,Fail to build Dubbo 3.3 on Mac Os,closed,20,2025-07-12T04:05:33Z,2025-07-16T15:08:08Z,2025-07-15T09:46:57Z,RyanShiiyoku,"type/bug,help wanted"
+apache/dubbo,3212151724,15530,[Feature] Upgrade to Netty HTTP/3 release version.,closed,1,2025-07-08T11:27:34Z,2025-07-10T11:37:57Z,2025-07-10T11:37:57Z,RainYuY,"dependencies,java"
+apache/dubbo,3210667168,15528,[Feature] Support for Mutiny Reactive,closed,2,2025-07-08T01:06:57Z,2025-09-01T13:41:19Z,2025-09-01T13:41:19Z,MoritzArena,"type/proposal,type/enhancement,good first issue"
