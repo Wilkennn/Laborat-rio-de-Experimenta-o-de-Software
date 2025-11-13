@@ -48,9 +48,3 @@ Esta pasta contém todos os datasets necessários para criar o dashboard de BI d
    - Garanta que o dashboard seja auto-explicativo
    - Apresente cada RQ com suas visualizações
 
-## Dicas
-
-- Escolha visualizações adequadas para cada tipo de dado
-- Use medidas de tendência central apropriadas (média, mediana)
-- Deixe os eixos e labels claros
-- Conte uma história com os dados
