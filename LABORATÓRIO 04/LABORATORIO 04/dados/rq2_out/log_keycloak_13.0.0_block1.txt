@@ -1,0 +1,7 @@
+cmd: docker run --rm -v C:\Users\wilke\OneDrive\Documentos\puc\TI6\msr\local_repos\keycloak:/repo:ro -v C:\Users\wilke\OneDrive\Documentos\puc\TI6\msr\tools:/tools:ro -v C:\Users\wilke\OneDrive\Documentos\puc\TI6\msr\reports\rq2_out:/out -w /out eclipse-temurin:17-jre-focal java -jar /tools/TestSmellDetector.jar /out/test_files_keycloak_13.0.0_block1.csv /out/results_keycloak_13.0.0_block1.csv
+
+=== STDOUT ===
+
+
+=== STDERR ===
+Error: Unable to access jarfile /tools/TestSmellDetector.jar
