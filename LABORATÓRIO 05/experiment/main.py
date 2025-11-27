@@ -3,7 +3,7 @@ import time
 import pandas as pd
 import sys
 
-GITHUB_TOKEN = "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" 
+GITHUB_TOKEN = "" 
 
 ORG_NAME = "facebook"
 NUM_EXECUCOES = 30   
