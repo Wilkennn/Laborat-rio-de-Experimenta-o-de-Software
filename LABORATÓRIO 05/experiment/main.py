@@ -10,7 +10,7 @@ import sys
 # ==============================================================================
 
 # 1. INSIRA SEU TOKEN AQUI
-GITHUB_TOKEN = "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" 
+GITHUB_TOKEN = "TOKEN" 
 
 # 2. Configurações Gerais
 ORG_NAME = "facebook"
