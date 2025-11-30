@@ -1,53 +1,80 @@
 import requests
+from requests.adapters import HTTPAdapter
+from urllib3.util.retry import Retry
 import time
 import pandas as pd
 import sys
 
-GITHUB_TOKEN = "" 
+# ==============================================================================
+# CONFIGURAÇÃO DO EXPERIMENTO
+# ==============================================================================
 
+# 1. INSIRA SEU TOKEN AQUI
+GITHUB_TOKEN = "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" 
+
+# 2. Configurações Gerais
 ORG_NAME = "facebook"
-NUM_EXECUCOES = 30   
+NUM_EXECUCOES = 30       
 DESCARTAR_PRIMEIROS = 5  
-INTERVALO_ENTRE_RODADAS = 1.5 
+INTERVALO_ENTRE_RODADAS = 2 # Aumentei um pouco para garantir
 
 # URLs Base
 URL_REST = "https://api.github.com"
 URL_GRAPHQL = "https://api.github.com/graphql"
 HEADERS = {"Authorization": f"token {GITHUB_TOKEN}"}
 
+# ==============================================================================
+# CONFIGURAÇÃO DE SESSÃO ROBUSTA (A CURA PARA O TIMEOUT)
+# ==============================================================================
+
+def criar_sessao_robusta():
+    session = requests.Session()
+    # Configura retry: Tenta 3 vezes, parando 1s, 2s, 4s entre falhas (backoff)
+    retry_strategy = Retry(
+        total=3,
+        backoff_factor=1,
+        status_forcelist=[429, 500, 502, 503, 504],
+        allowed_methods=["HEAD", "GET", "POST", "OPTIONS"]
+    )
+    adapter = HTTPAdapter(max_retries=retry_strategy)
+    session.mount("https://", adapter)
+    session.mount("http://", adapter)
+    session.headers.update(HEADERS) # Já embute o token em tudo
+    return session
+
+# Cria a sessão global para ser usada em todas as funções
+sessao = criar_sessao_robusta()
+
+# ==============================================================================
+# FUNÇÕES AUXILIARES
+# ==============================================================================
+
 def validar_token():
     if "SEU_TOKEN" in GITHUB_TOKEN:
         print("ERRO: Você esqueceu de colocar seu Token do GitHub no script!")
-        print("Edite a linha 'GITHUB_TOKEN' no início do arquivo.")
         sys.exit(1)
 
 def medir_request(func):
-    """
-    Executa uma função de cenário e mede:
-    - Tempo (ms)
-    - Tamanho (bytes)
-    - Número de Requisições HTTP (n)
-    """
     def wrapper():
         start_time = time.time()
         try:
+            # Passamos a sessão para a função usar
             tamanho, n_reqs = func() 
             end_time = time.time()
             tempo_ms = (end_time - start_time) * 1000
             return tempo_ms, tamanho, n_reqs
         except Exception as e:
-            print(f"Erro na execução: {e}")
-            return None, None, None
+            print(f"\n[ERRO] Falha na requisição: {e}")
+            return None, None, None # Retorna nulo para não quebrar o CSV
     return wrapper
 
 # ==============================================================================
-# CENÁRIO 1: CONSULTA ESCALAR (BASELINE)
-# Objetivo: Pegar 4 campos simples do perfil.
+# CENÁRIO 1: CONSULTA ESCALAR
 # ==============================================================================
 
 def cenario1_rest():
-    # GET /orgs/facebook
-    resp = requests.get(f"{URL_REST}/orgs/{ORG_NAME}", headers=HEADERS)
+    # Timeout de 10s para não ficar travado
+    resp = sessao.get(f"{URL_REST}/orgs/{ORG_NAME}", timeout=10)
     return len(resp.content), 1 
 
 def cenario1_graphql():
@@ -61,44 +88,40 @@ def cenario1_graphql():
       }
     }
     """
-    resp = requests.post(URL_GRAPHQL, json={'query': query}, headers=HEADERS)
+    resp = sessao.post(URL_GRAPHQL, json={'query': query}, timeout=10)
     return len(resp.content), 1 
 
 # ==============================================================================
-# CENÁRIO 2: LISTAGEM / COLEÇÃO (OVERFETCHING)
-# Objetivo: Listar 50 repositórios (apenas nome e estrelas).
+# CENÁRIO 2: LISTAGEM 
 # ==============================================================================
+
 def cenario2_rest():
-    resp = requests.get(f"{URL_REST}/orgs/{ORG_NAME}/repos?per_page=50", headers=HEADERS)
-    return len(resp.content), 1 # 
+    resp = sessao.get(f"{URL_REST}/orgs/{ORG_NAME}/repos?per_page=50", timeout=15)
+    return len(resp.content), 1 
 
 def cenario2_graphql():
-
     query = """
     query {
       organization(login: "facebook") {
         repositories(first: 50) {
-          nodes {
-            name
-            stargazerCount
-          }
+          nodes { name stargazerCount }
         }
       }
     }
     """
-    resp = requests.post(URL_GRAPHQL, json={'query': query}, headers=HEADERS)
+    resp = sessao.post(URL_GRAPHQL, json={'query': query}, timeout=15)
     return len(resp.content), 1 
 
 # ==============================================================================
-# CENÁRIO 3: DASHBOARD COMPLEXA (N+1 / UNDERFETCHING)
-# Objetivo: 5 Repos + Issues + Linguagens.
+# CENÁRIO 3: DASHBOARD COMPLEXA
 # ==============================================================================
 
 def cenario3_rest():
     tamanho_total = 0
     n_requests = 0
     
-    resp_repos = requests.get(f"{URL_REST}/orgs/{ORG_NAME}/repos?per_page=5", headers=HEADERS)
+    # 1. Lista Repos
+    resp_repos = sessao.get(f"{URL_REST}/orgs/{ORG_NAME}/repos?per_page=5", timeout=10)
     repos = resp_repos.json()
     tamanho_total += len(resp_repos.content)
     n_requests += 1
@@ -106,15 +129,16 @@ def cenario3_rest():
     for repo in repos:
         repo_name = repo['name']
         
-        resp_issues = requests.get(f"{URL_REST}/repos/{ORG_NAME}/{repo_name}/issues?per_page=3", headers=HEADERS)
+        # 2. Issues
+        resp_issues = sessao.get(f"{URL_REST}/repos/{ORG_NAME}/{repo_name}/issues?per_page=3", timeout=10)
         tamanho_total += len(resp_issues.content)
         n_requests += 1
         
-        resp_langs = requests.get(f"{URL_REST}/repos/{ORG_NAME}/{repo_name}/languages", headers=HEADERS)
+        # 3. Linguagens
+        resp_langs = sessao.get(f"{URL_REST}/repos/{ORG_NAME}/{repo_name}/languages", timeout=10)
         tamanho_total += len(resp_langs.content)
         n_requests += 1
         
-    # Esperado: 1 (lista) + 5 (issues) + 5 (langs) = 11 Requisições
     return tamanho_total, n_requests 
 
 def cenario3_graphql():
@@ -124,38 +148,30 @@ def cenario3_graphql():
         repositories(first: 5) {
           nodes {
             name
-            issues(last: 3) {
-              nodes { title }
-            }
-            languages(first: 3) {
-              nodes { name }
-            }
+            issues(last: 3) { nodes { title } }
+            languages(first: 3) { nodes { name } }
           }
         }
       }
     }
     """
-    resp = requests.post(URL_GRAPHQL, json={'query': query}, headers=HEADERS)
-    return len(resp.content), 1 # Apenas 1 Requisição
+    resp = sessao.post(URL_GRAPHQL, json={'query': query}, timeout=15)
+    return len(resp.content), 1 
 
 # ==============================================================================
-# LOOP PRINCIPAL
+# MAIN
 # ==============================================================================
 
 if __name__ == "__main__":
     validar_token()
-    
     resultados = []
-    print(f"--- INICIANDO EXPERIMENTO CONTROLADO ---")
-    print(f"Alvo: {ORG_NAME}")
-    print(f"Rodadas: {NUM_EXECUCOES} (Descartando as {DESCARTAR_PRIMEIROS} primeiras)")
-    print("-" * 50)
-
+    print(f"--- INICIANDO EXPERIMENTO BLINDADO ---")
+    
     for i in range(1, NUM_EXECUCOES + 1):
         print(f"Executando Rodada {i}/{NUM_EXECUCOES}...", end="\r")
-        
         valido = i > DESCARTAR_PRIMEIROS
-                
+        
+        # Execuções
         t_r1, s_r1, n_r1 = medir_request(cenario1_rest)()
         t_g1, s_g1, n_g1 = medir_request(cenario1_graphql)()
         
@@ -165,39 +181,28 @@ if __name__ == "__main__":
         t_r3, s_r3, n_r3 = medir_request(cenario3_rest)()
         t_g3, s_g3, n_g3 = medir_request(cenario3_graphql)()
         
-        def registrar(cenario, tec, tempo, tam, reqs):
-            resultados.append({
-                "rodada": i,
-                "valido": valido,
-                "cenario": cenario,
-                "tecnologia": tec,
-                "tempo_ms": tempo,
-                "tamanho_bytes": tam,
-                "n_requests": reqs
-            })
+        # Função auxiliar para salvar
+        def registrar(cen, tec, tem, tam, req):
+            # Só salva se não deu erro (não é None)
+            if tem is not None:
+                resultados.append({
+                    "rodada": i, "valido": valido, "cenario": cen, "tecnologia": tec,
+                    "tempo_ms": tem, "tamanho_bytes": tam, "n_requests": req
+                })
 
         registrar("1_Scalar", "REST", t_r1, s_r1, n_r1)
         registrar("1_Scalar", "GraphQL", t_g1, s_g1, n_g1)
-        
         registrar("2_Listagem", "REST", t_r2, s_r2, n_r2)
         registrar("2_Listagem", "GraphQL", t_g2, s_g2, n_g2)
-        
         registrar("3_Dashboard", "REST", t_r3, s_r3, n_r3)
         registrar("3_Dashboard", "GraphQL", t_g3, s_g3, n_g3)
         
         time.sleep(INTERVALO_ENTRE_RODADAS)
 
-    print("\n\n--- EXPERIMENTO CONCLUÍDO! ---")
-    
-    # Salva em CSV
+    print("\n--- Concluído ---")
     df = pd.DataFrame(resultados)
-    nome_arquivo = "resultados_experimento_final.csv"
-    df.to_csv(nome_arquivo, index=False)
-    
-    print(f"Dados salvos em: {nome_arquivo}")
+    df.to_csv("resultados_experimento_final.csv", index=False)
+    print("Salvo: resultados_experimento_final.csv")
     
     if not df.empty:
-        print("\n--- RESUMO DAS MÉDIAS (DADOS VÁLIDOS) ---")
-        df_valido = df[df['valido'] == True]
-        resumo = df_valido.groupby(['cenario', 'tecnologia'])[['tempo_ms', 'tamanho_bytes', 'n_requests']].mean()
-        print(resumo)
+        print(df[df['valido']==True].groupby(['cenario', 'tecnologia'])[['tempo_ms']].mean())
